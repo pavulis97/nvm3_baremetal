@@ -1016,7 +1016,7 @@ END GROUP
 LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crtend.o
 LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crtn.o
 
-.text           0x0000000008000000     0x9810
+.text           0x0000000008000000     0x9850
                 0x0000000008000000                linker_vectors_begin = .
  *(.vectors)
  .vectors       0x0000000008000000      0x170 vscode-build/obj/gecko_sdk_4.3.1/platform/Device/SiliconLabs/EFR32ZG23/Source/startup_efr32zg23.o
@@ -1380,759 +1380,759 @@ LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/g
  .text.initialise_counters
                 0x0000000008003eec       0x48 vscode-build/obj/nvm3_app.o
  .text.nvm3_app_write
-                0x0000000008003f34       0x78 vscode-build/obj/nvm3_app.o
+                0x0000000008003f34       0x68 vscode-build/obj/nvm3_app.o
                 0x0000000008003f34                nvm3_app_write
  .text.nvm3_app_delete
-                0x0000000008003fac       0x58 vscode-build/obj/nvm3_app.o
-                0x0000000008003fac                nvm3_app_delete
+                0x0000000008003f9c       0x58 vscode-build/obj/nvm3_app.o
+                0x0000000008003f9c                nvm3_app_delete
  .text.nvm3_app_read
-                0x0000000008004004       0x84 vscode-build/obj/nvm3_app.o
-                0x0000000008004004                nvm3_app_read
+                0x0000000008003ff4       0x7c vscode-build/obj/nvm3_app.o
+                0x0000000008003ff4                nvm3_app_read
  .text.nvm3_app_display
-                0x0000000008004088      0x12c vscode-build/obj/nvm3_app.o
-                0x0000000008004088                nvm3_app_display
+                0x0000000008004070      0x12c vscode-build/obj/nvm3_app.o
+                0x0000000008004070                nvm3_app_display
  .text.nvm3_app_reset
-                0x00000000080041b4       0x20 vscode-build/obj/nvm3_app.o
-                0x00000000080041b4                nvm3_app_reset
+                0x000000000800419c       0x20 vscode-build/obj/nvm3_app.o
+                0x000000000800419c                nvm3_app_reset
  .text.nvm3_app_init
-                0x00000000080041d4       0x34 vscode-build/obj/nvm3_app.o
-                0x00000000080041d4                nvm3_app_init
+                0x00000000080041bc       0x34 vscode-build/obj/nvm3_app.o
+                0x00000000080041bc                nvm3_app_init
  .text.nvm3_app_process_action
-                0x0000000008004208       0x28 vscode-build/obj/nvm3_app.o
-                0x0000000008004208                nvm3_app_process_action
- .text          0x0000000008004230       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/libgcc.a(_aeabi_uldivmod.o)
-                0x0000000008004230                __aeabi_uldivmod
- .text          0x0000000008004260      0x2ec /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/libgcc.a(_udivmoddi4.o)
-                0x0000000008004260                __udivmoddi4
- .text          0x000000000800454c        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/libgcc.a(_dvmd_tls.o)
-                0x000000000800454c                __aeabi_ldiv0
-                0x000000000800454c                __aeabi_idiv0
- .text.exit     0x0000000008004550       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-exit.o)
-                0x0000000008004550                exit
+                0x00000000080041f0       0x70 vscode-build/obj/nvm3_app.o
+                0x00000000080041f0                nvm3_app_process_action
+ .text          0x0000000008004260       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                0x0000000008004260                __aeabi_uldivmod
+ .text          0x0000000008004290      0x2ec /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x0000000008004290                __udivmoddi4
+ .text          0x000000000800457c        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/libgcc.a(_dvmd_tls.o)
+                0x000000000800457c                __aeabi_ldiv0
+                0x000000000800457c                __aeabi_idiv0
+ .text.exit     0x0000000008004580       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-exit.o)
+                0x0000000008004580                exit
  .text.__libc_init_array
-                0x0000000008004578       0x48 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-init.o)
-                0x0000000008004578                __libc_init_array
- .text.printf   0x00000000080045c0       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-printf.o)
-                0x00000000080045c0                printf
-                0x00000000080045c0                iprintf
- .text._puts_r  0x00000000080045f0       0xdc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-puts.o)
-                0x00000000080045f0                _puts_r
- .text.puts     0x00000000080046cc       0x10 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-puts.o)
-                0x00000000080046cc                puts
- .text.setvbuf  0x00000000080046dc      0x188 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-setvbuf.o)
-                0x00000000080046dc                setvbuf
+                0x00000000080045a8       0x48 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-init.o)
+                0x00000000080045a8                __libc_init_array
+ .text.printf   0x00000000080045f0       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-printf.o)
+                0x00000000080045f0                printf
+                0x00000000080045f0                iprintf
+ .text._puts_r  0x0000000008004620       0xdc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-puts.o)
+                0x0000000008004620                _puts_r
+ .text.puts     0x00000000080046fc       0x10 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-puts.o)
+                0x00000000080046fc                puts
+ .text.setvbuf  0x000000000800470c      0x188 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-setvbuf.o)
+                0x000000000800470c                setvbuf
  .text._strtol_l.constprop.0
-                0x0000000008004864      0x104 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strtol.o)
- .text.strtol   0x0000000008004968       0x14 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strtol.o)
-                0x0000000008004968                strtol
+                0x0000000008004894      0x104 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strtol.o)
+ .text.strtol   0x0000000008004998       0x14 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strtol.o)
+                0x0000000008004998                strtol
  .text._strtoll_l.constprop.0
-                0x000000000800497c      0x12c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strtoll.o)
- .text.strtoll  0x0000000008004aa8       0x14 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strtoll.o)
-                0x0000000008004aa8                strtoll
+                0x00000000080049ac      0x12c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strtoll.o)
+ .text.strtoll  0x0000000008004ad8       0x14 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strtoll.o)
+                0x0000000008004ad8                strtoll
  .text._strtoul_l.constprop.0
-                0x0000000008004abc       0xe4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strtoul.o)
- .text.strtoul  0x0000000008004ba0       0x14 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strtoul.o)
-                0x0000000008004ba0                strtoul
- .text.vprintf  0x0000000008004bb4       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-vprintf.o)
-                0x0000000008004bb4                vprintf
-                0x0000000008004bb4                viprintf
+                0x0000000008004aec       0xe4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strtoul.o)
+ .text.strtoul  0x0000000008004bd0       0x14 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strtoul.o)
+                0x0000000008004bd0                strtoul
+ .text.vprintf  0x0000000008004be4       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-vprintf.o)
+                0x0000000008004be4                vprintf
+                0x0000000008004be4                viprintf
  .text.__swbuf_r
-                0x0000000008004be4       0xa4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-wbuf.o)
-                0x0000000008004be4                __swbuf_r
+                0x0000000008004c14       0xa4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-wbuf.o)
+                0x0000000008004c14                __swbuf_r
  .text.__swsetup_r
-                0x0000000008004c88       0xdc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-wsetup.o)
-                0x0000000008004c88                __swsetup_r
- .text.__errno  0x0000000008004d64        0xc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-errno.o)
-                0x0000000008004d64                __errno
+                0x0000000008004cb8       0xdc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-wsetup.o)
+                0x0000000008004cb8                __swsetup_r
+ .text.__errno  0x0000000008004d94        0xc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-errno.o)
+                0x0000000008004d94                __errno
  .text.__sflush_r
-                0x0000000008004d70      0x108 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-fflush.o)
-                0x0000000008004d70                __sflush_r
+                0x0000000008004da0      0x108 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-fflush.o)
+                0x0000000008004da0                __sflush_r
  .text._fflush_r
-                0x0000000008004e78       0x78 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-fflush.o)
-                0x0000000008004e78                _fflush_r
- .text.std      0x0000000008004ef0       0x48 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x0000000008004ea8       0x78 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-fflush.o)
+                0x0000000008004ea8                _fflush_r
+ .text.std      0x0000000008004f20       0x48 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
  .text._cleanup_r
-                0x0000000008004f38        0xc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x0000000008004f38                _cleanup_r
- .text.__sfp_lock_acquire
-                0x0000000008004f44        0xc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x0000000008004f44                __sfp_lock_acquire
- .text.__sfp_lock_release
-                0x0000000008004f50        0xc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x0000000008004f50                __sfp_lock_release
- .text.__sinit_lock_acquire
-                0x0000000008004f5c        0xc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x0000000008004f5c                __sinit_lock_acquire
- .text.__sinit_lock_release
                 0x0000000008004f68        0xc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x0000000008004f68                __sinit_lock_release
- .text.__sinit  0x0000000008004f74       0x70 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x0000000008004f74                __sinit
- .text.__sfp    0x0000000008004fe4       0x8c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x0000000008004fe4                __sfp
+                0x0000000008004f68                _cleanup_r
+ .text.__sfp_lock_acquire
+                0x0000000008004f74        0xc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x0000000008004f74                __sfp_lock_acquire
+ .text.__sfp_lock_release
+                0x0000000008004f80        0xc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x0000000008004f80                __sfp_lock_release
+ .text.__sinit_lock_acquire
+                0x0000000008004f8c        0xc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x0000000008004f8c                __sinit_lock_acquire
+ .text.__sinit_lock_release
+                0x0000000008004f98        0xc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x0000000008004f98                __sinit_lock_release
+ .text.__sinit  0x0000000008004fa4       0x70 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x0000000008004fa4                __sinit
+ .text.__sfp    0x0000000008005014       0x8c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x0000000008005014                __sfp
  .text.__smakebuf_r
-                0x0000000008005070       0x80 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-makebuf.o)
-                0x0000000008005070                __smakebuf_r
- .text.malloc   0x00000000080050f0       0x10 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-malloc.o)
-                0x00000000080050f0                malloc
- .text._free_r  0x0000000008005100       0x98 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-freer.o)
-                0x0000000008005100                _free_r
+                0x00000000080050a0       0x80 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-makebuf.o)
+                0x00000000080050a0                __smakebuf_r
+ .text.malloc   0x0000000008005120       0x10 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-malloc.o)
+                0x0000000008005120                malloc
+ .text._free_r  0x0000000008005130       0x98 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+                0x0000000008005130                _free_r
  .text.sbrk_aligned
-                0x0000000008005198       0x40 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+                0x00000000080051c8       0x40 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
  .text._malloc_r
-                0x00000000080051d8       0xe8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
-                0x00000000080051d8                _malloc_r
+                0x0000000008005208       0xe8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000008005208                _malloc_r
  .text._vfprintf_r
-                0x00000000080052c0      0x260 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
-                0x00000000080052c0                _vfiprintf_r
-                0x00000000080052c0                _vfprintf_r
+                0x00000000080052f0      0x260 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x00000000080052f0                _vfiprintf_r
+                0x00000000080052f0                _vfprintf_r
  .text._printf_i
-                0x0000000008005520      0x24c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000008005520                _printf_i
- .text._sbrk_r  0x000000000800576c       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-sbrkr.o)
-                0x000000000800576c                _sbrk_r
+                0x0000000008005550      0x24c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008005550                _printf_i
+ .text._sbrk_r  0x000000000800579c       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-sbrkr.o)
+                0x000000000800579c                _sbrk_r
  .text._write_r
-                0x000000000800578c       0x24 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-writer.o)
-                0x000000000800578c                _write_r
+                0x00000000080057bc       0x24 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-writer.o)
+                0x00000000080057bc                _write_r
  .text._close_r
-                0x00000000080057b0       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-closer.o)
-                0x00000000080057b0                _close_r
+                0x00000000080057e0       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-closer.o)
+                0x00000000080057e0                _close_r
  .text._fstat_r
-                0x00000000080057d0       0x24 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-fstatr.o)
-                0x00000000080057d0                _fstat_r
+                0x0000000008005800       0x24 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-fstatr.o)
+                0x0000000008005800                _fstat_r
  .text._isatty_r
-                0x00000000080057f4       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-isattyr.o)
-                0x00000000080057f4                _isatty_r
+                0x0000000008005824       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-isattyr.o)
+                0x0000000008005824                _isatty_r
  .text._lseek_r
-                0x0000000008005814       0x24 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-lseekr.o)
-                0x0000000008005814                _lseek_r
+                0x0000000008005844       0x24 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-lseekr.o)
+                0x0000000008005844                _lseek_r
  .text.__malloc_lock
-                0x0000000008005838        0xc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-mlock.o)
-                0x0000000008005838                __malloc_lock
+                0x0000000008005868        0xc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-mlock.o)
+                0x0000000008005868                __malloc_lock
  .text.__malloc_unlock
-                0x0000000008005844        0xc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-mlock.o)
-                0x0000000008005844                __malloc_unlock
- .text._read_r  0x0000000008005850       0x24 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-readr.o)
-                0x0000000008005850                _read_r
+                0x0000000008005874        0xc /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-mlock.o)
+                0x0000000008005874                __malloc_unlock
+ .text._read_r  0x0000000008005880       0x24 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-readr.o)
+                0x0000000008005880                _read_r
  .text.validateObjFragments
-                0x0000000008005874      0x238 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
- .text.findObj  0x0000000008005aac      0x170 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x00000000080058a4      0x238 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+ .text.findObj  0x0000000008005adc      0x170 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.fifoScan
-                0x0000000008005c1c       0x74 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008005c4c       0x74 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.repackWorker
-                0x0000000008005c90      0x154 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008005cc0      0x154 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.enumScanFifoCallback
-                0x0000000008005de4       0x6c gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008005e14       0x6c gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.fifoReadObj.constprop.0
-                0x0000000008005e50      0x168 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008005e80      0x168 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.enumObjects
-                0x0000000008005fb8       0x78 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008005fe8       0x78 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.counterIncFldSet.constprop.0
-                0x0000000008006030       0x64 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008006060       0x64 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.fifoWriteObj
-                0x0000000008006094      0x428 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x00000000080060c4      0x428 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.fifoWriteWrapper
-                0x00000000080064bc       0xa8 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x00000000080064ec       0xa8 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.fifoUpdateCounter.constprop.0
-                0x0000000008006564      0x188 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008006594      0x188 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.repackFirstPageCallback
-                0x00000000080066ec       0x84 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x000000000800671c       0x84 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.repackFirstPageScanCacheCallback
-                0x0000000008006770       0xb0 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x00000000080067a0       0xb0 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.initialize
-                0x0000000008006820      0x280 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008006850      0x280 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.nvm3_open
-                0x0000000008006aa0      0x1ac gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
-                0x0000000008006aa0                nvm3_open
+                0x0000000008006ad0      0x1ac gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008006ad0                nvm3_open
  .text.nvm3_writeData
-                0x0000000008006c4c       0x94 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
-                0x0000000008006c4c                nvm3_writeData
+                0x0000000008006c7c       0x94 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008006c7c                nvm3_writeData
  .text.nvm3_readData
-                0x0000000008006ce0       0x9c gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
-                0x0000000008006ce0                nvm3_readData
+                0x0000000008006d10       0x9c gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008006d10                nvm3_readData
  .text.nvm3_writeCounter
-                0x0000000008006d7c       0x98 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
-                0x0000000008006d7c                nvm3_writeCounter
+                0x0000000008006dac       0x98 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008006dac                nvm3_writeCounter
  .text.nvm3_readCounter
-                0x0000000008006e14       0x80 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
-                0x0000000008006e14                nvm3_readCounter
+                0x0000000008006e44       0x80 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008006e44                nvm3_readCounter
  .text.nvm3_incrementCounter
-                0x0000000008006e94       0x8c gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
-                0x0000000008006e94                nvm3_incrementCounter
+                0x0000000008006ec4       0x8c gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008006ec4                nvm3_incrementCounter
  .text.nvm3_getObjectInfo
-                0x0000000008006f20       0x8c gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
-                0x0000000008006f20                nvm3_getObjectInfo
+                0x0000000008006f50       0x8c gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008006f50                nvm3_getObjectInfo
  .text.nvm3_deleteObject
-                0x0000000008006fac       0x78 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
-                0x0000000008006fac                nvm3_deleteObject
+                0x0000000008006fdc       0x78 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008006fdc                nvm3_deleteObject
  .text.nvm3_eraseAll
-                0x0000000008007024       0x40 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
-                0x0000000008007024                nvm3_eraseAll
+                0x0000000008007054       0x40 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008007054                nvm3_eraseAll
  .text.nvm3_repack
-                0x0000000008007064       0x4c gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
-                0x0000000008007064                nvm3_repack
+                0x0000000008007094       0x4c gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008007094                nvm3_repack
  .text.nvm3_cacheSet
-                0x00000000080070b0       0xa0 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_cache.o)
-                0x00000000080070b0                nvm3_cacheSet
+                0x00000000080070e0       0xa0 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_cache.o)
+                0x00000000080070e0                nvm3_cacheSet
  .text.nvm3_cacheScan
-                0x0000000008007150       0x44 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_cache.o)
-                0x0000000008007150                nvm3_cacheScan
+                0x0000000008007180       0x44 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_cache.o)
+                0x0000000008007180                nvm3_cacheScan
  .text.nvm3_objHdrInit
-                0x0000000008007194       0x98 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
-                0x0000000008007194                nvm3_objHdrInit
+                0x00000000080071c4       0x98 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
+                0x00000000080071c4                nvm3_objHdrInit
  .text.nvm3_objInit
-                0x000000000800722c       0x2c gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
-                0x000000000800722c                nvm3_objInit
+                0x000000000800725c       0x2c gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
+                0x000000000800725c                nvm3_objInit
  .text.nvm3_objTypeToGroup
-                0x0000000008007258       0x10 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
-                0x0000000008007258                nvm3_objTypeToGroup
+                0x0000000008007288       0x10 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
+                0x0000000008007288                nvm3_objTypeToGroup
  .text.nvm3_pageHeaderWrite
-                0x0000000008007268       0xec gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_page.o)
-                0x0000000008007268                nvm3_pageHeaderWrite
+                0x0000000008007298       0xec gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_page.o)
+                0x0000000008007298                nvm3_pageHeaderWrite
  .text.app_init
-                0x0000000008007354        0x4 vscode-build/obj/app.o
-                0x0000000008007354                app_init
+                0x0000000008007384        0x4 vscode-build/obj/app.o
+                0x0000000008007384                app_init
  .text.app_process_action
-                0x0000000008007358        0x4 vscode-build/obj/app.o
-                0x0000000008007358                app_process_action
+                0x0000000008007388        0x4 vscode-build/obj/app.o
+                0x0000000008007388                app_process_action
  .text.sl_board_default_init
-                0x000000000800735c        0x4 vscode-build/obj/autogen/sl_board_default_init.o
-                0x000000000800735c                sl_board_default_init
+                0x000000000800738c        0x4 vscode-build/obj/autogen/sl_board_default_init.o
+                0x000000000800738c                sl_board_default_init
  .text.sl_driver_init
-                0x0000000008007360        0xe vscode-build/obj/autogen/sl_event_handler.o
-                0x0000000008007360                sl_driver_init
+                0x0000000008007390        0xe vscode-build/obj/autogen/sl_event_handler.o
+                0x0000000008007390                sl_driver_init
  .text.sl_service_init
-                0x000000000800736e       0x16 vscode-build/obj/autogen/sl_event_handler.o
-                0x000000000800736e                sl_service_init
+                0x000000000800739e       0x16 vscode-build/obj/autogen/sl_event_handler.o
+                0x000000000800739e                sl_service_init
  .text.sl_stack_init
-                0x0000000008007384        0x2 vscode-build/obj/autogen/sl_event_handler.o
-                0x0000000008007384                sl_stack_init
+                0x00000000080073b4        0x2 vscode-build/obj/autogen/sl_event_handler.o
+                0x00000000080073b4                sl_stack_init
  .text.sl_internal_app_init
-                0x0000000008007386        0x2 vscode-build/obj/autogen/sl_event_handler.o
-                0x0000000008007386                sl_internal_app_init
+                0x00000000080073b6        0x2 vscode-build/obj/autogen/sl_event_handler.o
+                0x00000000080073b6                sl_internal_app_init
  .text.sl_platform_process_action
-                0x0000000008007388        0x2 vscode-build/obj/autogen/sl_event_handler.o
-                0x0000000008007388                sl_platform_process_action
+                0x00000000080073b8        0x2 vscode-build/obj/autogen/sl_event_handler.o
+                0x00000000080073b8                sl_platform_process_action
  .text.sl_service_process_action
-                0x000000000800738a        0x4 vscode-build/obj/autogen/sl_event_handler.o
-                0x000000000800738a                sl_service_process_action
+                0x00000000080073ba        0x4 vscode-build/obj/autogen/sl_event_handler.o
+                0x00000000080073ba                sl_service_process_action
  .text.sl_stack_process_action
-                0x000000000800738e        0x2 vscode-build/obj/autogen/sl_event_handler.o
-                0x000000000800738e                sl_stack_process_action
+                0x00000000080073be        0x2 vscode-build/obj/autogen/sl_event_handler.o
+                0x00000000080073be                sl_stack_process_action
  .text.sl_internal_app_process_action
-                0x0000000008007390        0x2 vscode-build/obj/autogen/sl_event_handler.o
-                0x0000000008007390                sl_internal_app_process_action
+                0x00000000080073c0        0x2 vscode-build/obj/autogen/sl_event_handler.o
+                0x00000000080073c0                sl_internal_app_process_action
  .text.sl_iostream_eusart_init_instances
-                0x0000000008007392        0x4 vscode-build/obj/autogen/sl_iostream_init_eusart_instances.o
-                0x0000000008007392                sl_iostream_eusart_init_instances
+                0x00000000080073c2        0x4 vscode-build/obj/autogen/sl_iostream_init_eusart_instances.o
+                0x00000000080073c2                sl_iostream_eusart_init_instances
  .text.EUSART0_TX_IRQHandler
-                0x0000000008007396        0x4 vscode-build/obj/autogen/sl_iostream_init_eusart_instances.o
-                0x0000000008007396                EUSART0_TX_IRQHandler
+                0x00000000080073c6        0x4 vscode-build/obj/autogen/sl_iostream_init_eusart_instances.o
+                0x00000000080073c6                EUSART0_TX_IRQHandler
  .text.sl_board_enable_vcom
-                0x000000000800739a       0x12 vscode-build/obj/gecko_sdk_4.3.1/hardware/board/src/sl_board_control_gpio.o
-                0x000000000800739a                sl_board_enable_vcom
+                0x00000000080073ca       0x12 vscode-build/obj/gecko_sdk_4.3.1/hardware/board/src/sl_board_control_gpio.o
+                0x00000000080073ca                sl_board_enable_vcom
  .text.sl_board_configure_vcom
-                0x00000000080073ac        0x4 vscode-build/obj/gecko_sdk_4.3.1/hardware/board/src/sl_board_control_gpio.o
-                0x00000000080073ac                sl_board_configure_vcom
+                0x00000000080073dc        0x4 vscode-build/obj/gecko_sdk_4.3.1/hardware/board/src/sl_board_control_gpio.o
+                0x00000000080073dc                sl_board_configure_vcom
  .text.sl_board_disable_vcom
-                0x00000000080073b0       0x12 vscode-build/obj/gecko_sdk_4.3.1/hardware/board/src/sl_board_control_gpio.o
-                0x00000000080073b0                sl_board_disable_vcom
+                0x00000000080073e0       0x12 vscode-build/obj/gecko_sdk_4.3.1/hardware/board/src/sl_board_control_gpio.o
+                0x00000000080073e0                sl_board_disable_vcom
  .text.sl_board_init
-                0x00000000080073c2       0x16 vscode-build/obj/gecko_sdk_4.3.1/hardware/board/src/sl_board_init.o
-                0x00000000080073c2                sl_board_init
+                0x00000000080073f2       0x16 vscode-build/obj/gecko_sdk_4.3.1/hardware/board/src/sl_board_init.o
+                0x00000000080073f2                sl_board_init
  .text.sl_board_preinit
-                0x00000000080073d8        0x8 vscode-build/obj/gecko_sdk_4.3.1/hardware/board/src/sl_board_init.o
-                0x00000000080073d8                sl_board_preinit
+                0x0000000008007408        0x8 vscode-build/obj/gecko_sdk_4.3.1/hardware/board/src/sl_board_init.o
+                0x0000000008007408                sl_board_preinit
  .text.sli_cos_swo_itm_8_write.constprop.0.isra.0
-                0x00000000080073e0       0x60 vscode-build/obj/gecko_sdk_4.3.1/hardware/driver/configuration_over_swo/src/sl_cos.o
+                0x0000000008007410       0x60 vscode-build/obj/gecko_sdk_4.3.1/hardware/driver/configuration_over_swo/src/sl_cos.o
  .text.sl_cos_send_config
-                0x0000000008007440       0x12 vscode-build/obj/gecko_sdk_4.3.1/hardware/driver/configuration_over_swo/src/sl_cos.o
-                0x0000000008007440                sl_cos_send_config
+                0x0000000008007470       0x12 vscode-build/obj/gecko_sdk_4.3.1/hardware/driver/configuration_over_swo/src/sl_cos.o
+                0x0000000008007470                sl_cos_send_config
  .text.sl_cos_config_vcom
-                0x0000000008007452       0x1e vscode-build/obj/gecko_sdk_4.3.1/hardware/driver/configuration_over_swo/src/sl_cos.o
-                0x0000000008007452                sl_cos_config_vcom
+                0x0000000008007482       0x1e vscode-build/obj/gecko_sdk_4.3.1/hardware/driver/configuration_over_swo/src/sl_cos.o
+                0x0000000008007482                sl_cos_config_vcom
  .text.Default_Handler
-                0x0000000008007470        0x2 vscode-build/obj/gecko_sdk_4.3.1/platform/Device/SiliconLabs/EFR32ZG23/Source/startup_efr32zg23.o
-                0x0000000008007470                SYSRTC_APP_IRQHandler
-                0x0000000008007470                SW2_IRQHandler
-                0x0000000008007470                TIMER2_IRQHandler
-                0x0000000008007470                DebugMon_Handler
-                0x0000000008007470                USART0_TX_IRQHandler
-                0x0000000008007470                IADC_IRQHandler
-                0x0000000008007470                I2C0_IRQHandler
-                0x0000000008007470                LFXO_IRQHandler
-                0x0000000008007470                VDAC_IRQHandler
-                0x0000000008007470                HardFault_Handler
-                0x0000000008007470                SMU_SECURE_IRQHandler
-                0x0000000008007470                SysTick_Handler
-                0x0000000008007470                SYSRTC_SEQ_IRQHandler
-                0x0000000008007470                EMUEFP_IRQHandler
-                0x0000000008007470                EUSART2_TX_IRQHandler
-                0x0000000008007470                PendSV_Handler
-                0x0000000008007470                NMI_Handler
-                0x0000000008007470                SYNTH_IRQHandler
-                0x0000000008007470                HOSTMAILBOX_IRQHandler
-                0x0000000008007470                HFXO0_IRQHandler
-                0x0000000008007470                I2C1_IRQHandler
-                0x0000000008007470                WDOG0_IRQHandler
-                0x0000000008007470                TIMER3_IRQHandler
-                0x0000000008007470                SYSCFG_IRQHandler
-                0x0000000008007470                RFECA1_IRQHandler
-                0x0000000008007470                EMUDG_IRQHandler
-                0x0000000008007470                MSC_IRQHandler
-                0x0000000008007470                DPLL0_IRQHandler
-                0x0000000008007470                UsageFault_Handler
-                0x0000000008007470                WDOG1_IRQHandler
-                0x0000000008007470                M33CTI1_IRQHandler
-                0x0000000008007470                TIMER4_IRQHandler
-                0x0000000008007470                GPIO_EVEN_IRQHandler
-                0x0000000008007470                SEMBTX_IRQHandler
-                0x0000000008007470                SW0_IRQHandler
-                0x0000000008007470                TIMER0_IRQHandler
-                0x0000000008007470                LCD_IRQHandler
-                0x0000000008007470                LETIMER0_IRQHandler
-                0x0000000008007470                EUSART1_RX_IRQHandler
-                0x0000000008007470                TIMER1_IRQHandler
-                0x0000000008007470                HFRCO0_IRQHandler
-                0x0000000008007470                SecureFault_Handler
-                0x0000000008007470                BUFC_IRQHandler
-                0x0000000008007470                DCDC_IRQHandler
-                0x0000000008007470                MODEM_IRQHandler
-                0x0000000008007470                Default_Handler
-                0x0000000008007470                RAC_SEQ_IRQHandler
-                0x0000000008007470                FRC_PRI_IRQHandler
-                0x0000000008007470                EMU_IRQHandler
-                0x0000000008007470                SW3_IRQHandler
-                0x0000000008007470                KERNEL0_IRQHandler
-                0x0000000008007470                FRC_IRQHandler
-                0x0000000008007470                PCNT0_IRQHandler
-                0x0000000008007470                KERNEL1_IRQHandler
-                0x0000000008007470                AGC_IRQHandler
-                0x0000000008007470                EUSART1_TX_IRQHandler
-                0x0000000008007470                KEYSCAN_IRQHandler
-                0x0000000008007470                sl_app_properties
-                0x0000000008007470                HFRCOEM23_IRQHandler
-                0x0000000008007470                BURTC_IRQHandler
-                0x0000000008007470                SEMBRX_IRQHandler
-                0x0000000008007470                RFECA0_IRQHandler
-                0x0000000008007470                LFRCO_IRQHandler
-                0x0000000008007470                ACMP0_IRQHandler
-                0x0000000008007470                USART0_RX_IRQHandler
-                0x0000000008007470                MemManage_Handler
-                0x0000000008007470                SVC_Handler
-                0x0000000008007470                EUSART2_RX_IRQHandler
-                0x0000000008007470                SMU_S_PRIVILEGED_IRQHandler
-                0x0000000008007470                SW1_IRQHandler
-                0x0000000008007470                CMU_IRQHandler
-                0x0000000008007470                RAC_RSM_IRQHandler
-                0x0000000008007470                SETAMPERHOST_IRQHandler
-                0x0000000008007470                GPIO_ODD_IRQHandler
-                0x0000000008007470                LESENSE_IRQHandler
-                0x0000000008007470                AES_IRQHandler
-                0x0000000008007470                M33CTI0_IRQHandler
-                0x0000000008007470                ICACHE0_IRQHandler
-                0x0000000008007470                SMU_NS_PRIVILEGED_IRQHandler
-                0x0000000008007470                FPUEXH_IRQHandler
-                0x0000000008007470                PROTIMER_IRQHandler
-                0x0000000008007470                ACMP1_IRQHandler
-                0x0000000008007470                BusFault_Handler
-                0x0000000008007470                MPAHBRAM_IRQHandler
-                0x0000000008007470                ULFRCO_IRQHandler
+                0x00000000080074a0        0x2 vscode-build/obj/gecko_sdk_4.3.1/platform/Device/SiliconLabs/EFR32ZG23/Source/startup_efr32zg23.o
+                0x00000000080074a0                SYSRTC_APP_IRQHandler
+                0x00000000080074a0                SW2_IRQHandler
+                0x00000000080074a0                TIMER2_IRQHandler
+                0x00000000080074a0                DebugMon_Handler
+                0x00000000080074a0                USART0_TX_IRQHandler
+                0x00000000080074a0                IADC_IRQHandler
+                0x00000000080074a0                I2C0_IRQHandler
+                0x00000000080074a0                LFXO_IRQHandler
+                0x00000000080074a0                VDAC_IRQHandler
+                0x00000000080074a0                HardFault_Handler
+                0x00000000080074a0                SMU_SECURE_IRQHandler
+                0x00000000080074a0                SysTick_Handler
+                0x00000000080074a0                SYSRTC_SEQ_IRQHandler
+                0x00000000080074a0                EMUEFP_IRQHandler
+                0x00000000080074a0                EUSART2_TX_IRQHandler
+                0x00000000080074a0                PendSV_Handler
+                0x00000000080074a0                NMI_Handler
+                0x00000000080074a0                SYNTH_IRQHandler
+                0x00000000080074a0                HOSTMAILBOX_IRQHandler
+                0x00000000080074a0                HFXO0_IRQHandler
+                0x00000000080074a0                I2C1_IRQHandler
+                0x00000000080074a0                WDOG0_IRQHandler
+                0x00000000080074a0                TIMER3_IRQHandler
+                0x00000000080074a0                SYSCFG_IRQHandler
+                0x00000000080074a0                RFECA1_IRQHandler
+                0x00000000080074a0                EMUDG_IRQHandler
+                0x00000000080074a0                MSC_IRQHandler
+                0x00000000080074a0                DPLL0_IRQHandler
+                0x00000000080074a0                UsageFault_Handler
+                0x00000000080074a0                WDOG1_IRQHandler
+                0x00000000080074a0                M33CTI1_IRQHandler
+                0x00000000080074a0                TIMER4_IRQHandler
+                0x00000000080074a0                GPIO_EVEN_IRQHandler
+                0x00000000080074a0                SEMBTX_IRQHandler
+                0x00000000080074a0                SW0_IRQHandler
+                0x00000000080074a0                TIMER0_IRQHandler
+                0x00000000080074a0                LCD_IRQHandler
+                0x00000000080074a0                LETIMER0_IRQHandler
+                0x00000000080074a0                EUSART1_RX_IRQHandler
+                0x00000000080074a0                TIMER1_IRQHandler
+                0x00000000080074a0                HFRCO0_IRQHandler
+                0x00000000080074a0                SecureFault_Handler
+                0x00000000080074a0                BUFC_IRQHandler
+                0x00000000080074a0                DCDC_IRQHandler
+                0x00000000080074a0                MODEM_IRQHandler
+                0x00000000080074a0                Default_Handler
+                0x00000000080074a0                RAC_SEQ_IRQHandler
+                0x00000000080074a0                FRC_PRI_IRQHandler
+                0x00000000080074a0                EMU_IRQHandler
+                0x00000000080074a0                SW3_IRQHandler
+                0x00000000080074a0                KERNEL0_IRQHandler
+                0x00000000080074a0                FRC_IRQHandler
+                0x00000000080074a0                PCNT0_IRQHandler
+                0x00000000080074a0                KERNEL1_IRQHandler
+                0x00000000080074a0                AGC_IRQHandler
+                0x00000000080074a0                EUSART1_TX_IRQHandler
+                0x00000000080074a0                KEYSCAN_IRQHandler
+                0x00000000080074a0                sl_app_properties
+                0x00000000080074a0                HFRCOEM23_IRQHandler
+                0x00000000080074a0                BURTC_IRQHandler
+                0x00000000080074a0                SEMBRX_IRQHandler
+                0x00000000080074a0                RFECA0_IRQHandler
+                0x00000000080074a0                LFRCO_IRQHandler
+                0x00000000080074a0                ACMP0_IRQHandler
+                0x00000000080074a0                USART0_RX_IRQHandler
+                0x00000000080074a0                MemManage_Handler
+                0x00000000080074a0                SVC_Handler
+                0x00000000080074a0                EUSART2_RX_IRQHandler
+                0x00000000080074a0                SMU_S_PRIVILEGED_IRQHandler
+                0x00000000080074a0                SW1_IRQHandler
+                0x00000000080074a0                CMU_IRQHandler
+                0x00000000080074a0                RAC_RSM_IRQHandler
+                0x00000000080074a0                SETAMPERHOST_IRQHandler
+                0x00000000080074a0                GPIO_ODD_IRQHandler
+                0x00000000080074a0                LESENSE_IRQHandler
+                0x00000000080074a0                AES_IRQHandler
+                0x00000000080074a0                M33CTI0_IRQHandler
+                0x00000000080074a0                ICACHE0_IRQHandler
+                0x00000000080074a0                SMU_NS_PRIVILEGED_IRQHandler
+                0x00000000080074a0                FPUEXH_IRQHandler
+                0x00000000080074a0                PROTIMER_IRQHandler
+                0x00000000080074a0                ACMP1_IRQHandler
+                0x00000000080074a0                BusFault_Handler
+                0x00000000080074a0                MPAHBRAM_IRQHandler
+                0x00000000080074a0                ULFRCO_IRQHandler
  .text.SystemCLKIN0Get
-                0x0000000008007472        0x4 vscode-build/obj/gecko_sdk_4.3.1/platform/Device/SiliconLabs/EFR32ZG23/Source/system_efr32zg23.o
-                0x0000000008007472                SystemCLKIN0Get
+                0x00000000080074a2        0x4 vscode-build/obj/gecko_sdk_4.3.1/platform/Device/SiliconLabs/EFR32ZG23/Source/system_efr32zg23.o
+                0x00000000080074a2                SystemCLKIN0Get
  .text.SystemLFRCOClockGet
-                0x0000000008007476        0x6 vscode-build/obj/gecko_sdk_4.3.1/platform/Device/SiliconLabs/EFR32ZG23/Source/system_efr32zg23.o
-                0x0000000008007476                SystemLFRCOClockGet
+                0x00000000080074a6        0x6 vscode-build/obj/gecko_sdk_4.3.1/platform/Device/SiliconLabs/EFR32ZG23/Source/system_efr32zg23.o
+                0x00000000080074a6                SystemLFRCOClockGet
  .text.SystemULFRCOClockGet
-                0x000000000800747c        0x6 vscode-build/obj/gecko_sdk_4.3.1/platform/Device/SiliconLabs/EFR32ZG23/Source/system_efr32zg23.o
-                0x000000000800747c                SystemULFRCOClockGet
+                0x00000000080074ac        0x6 vscode-build/obj/gecko_sdk_4.3.1/platform/Device/SiliconLabs/EFR32ZG23/Source/system_efr32zg23.o
+                0x00000000080074ac                SystemULFRCOClockGet
  .text.assertEFM
-                0x0000000008007482        0x2 vscode-build/obj/gecko_sdk_4.3.1/platform/common/src/sl_assert.o
-                0x0000000008007482                assertEFM
+                0x00000000080074b2        0x2 vscode-build/obj/gecko_sdk_4.3.1/platform/common/src/sl_assert.o
+                0x00000000080074b2                assertEFM
  .text.sl_slist_init
-                0x0000000008007484        0x6 vscode-build/obj/gecko_sdk_4.3.1/platform/common/src/sl_slist.o
-                0x0000000008007484                sl_slist_init
+                0x00000000080074b4        0x6 vscode-build/obj/gecko_sdk_4.3.1/platform/common/src/sl_slist.o
+                0x00000000080074b4                sl_slist_init
  .text.sl_strcpy_s
-                0x000000000800748a       0x22 vscode-build/obj/gecko_sdk_4.3.1/platform/common/src/sl_string.o
-                0x000000000800748a                sl_strcpy_s
+                0x00000000080074ba       0x22 vscode-build/obj/gecko_sdk_4.3.1/platform/common/src/sl_string.o
+                0x00000000080074ba                sl_strcpy_s
  .text.sl_strnlen
-                0x00000000080074ac       0x16 vscode-build/obj/gecko_sdk_4.3.1/platform/common/src/sl_string.o
-                0x00000000080074ac                sl_strnlen
+                0x00000000080074dc       0x16 vscode-build/obj/gecko_sdk_4.3.1/platform/common/src/sl_string.o
+                0x00000000080074dc                sl_strnlen
  .text.sl_strlen
-                0x00000000080074c2        0x8 vscode-build/obj/gecko_sdk_4.3.1/platform/common/src/sl_string.o
-                0x00000000080074c2                sl_strlen
+                0x00000000080074f2        0x8 vscode-build/obj/gecko_sdk_4.3.1/platform/common/src/sl_string.o
+                0x00000000080074f2                sl_strlen
  .text.sl_strcat_s
-                0x00000000080074ca       0x26 vscode-build/obj/gecko_sdk_4.3.1/platform/common/src/sl_string.o
-                0x00000000080074ca                sl_strcat_s
+                0x00000000080074fa       0x26 vscode-build/obj/gecko_sdk_4.3.1/platform/common/src/sl_string.o
+                0x00000000080074fa                sl_strcat_s
  .text.sl_debug_swo_enable_itm
-                0x00000000080074f0       0x18 vscode-build/obj/gecko_sdk_4.3.1/platform/driver/debug/src/sl_debug_swo.o
-                0x00000000080074f0                sl_debug_swo_enable_itm
+                0x0000000008007520       0x18 vscode-build/obj/gecko_sdk_4.3.1/platform/driver/debug/src/sl_debug_swo.o
+                0x0000000008007520                sl_debug_swo_enable_itm
  .text.sl_debug_swo_disable_itm
-                0x0000000008007508       0x1a vscode-build/obj/gecko_sdk_4.3.1/platform/driver/debug/src/sl_debug_swo.o
-                0x0000000008007508                sl_debug_swo_disable_itm
+                0x0000000008007538       0x1a vscode-build/obj/gecko_sdk_4.3.1/platform/driver/debug/src/sl_debug_swo.o
+                0x0000000008007538                sl_debug_swo_disable_itm
  .text.DMADRV_PeripheralMemory
-                0x0000000008007522       0x34 vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/dmadrv/src/dmadrv.o
-                0x0000000008007522                DMADRV_PeripheralMemory
+                0x0000000008007552       0x34 vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/dmadrv/src/dmadrv.o
+                0x0000000008007552                DMADRV_PeripheralMemory
  .text.nvm3_halFlashAccess
-                0x0000000008007556        0x2 vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/nvm3/src/nvm3_hal_flash.o
+                0x0000000008007586        0x2 vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/nvm3/src/nvm3_hal_flash.o
  .text.nvm3_halFlashGetInfo
-                0x0000000008007558       0x22 vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/nvm3/src/nvm3_hal_flash.o
+                0x0000000008007588       0x22 vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/nvm3/src/nvm3_hal_flash.o
  .text.nvm3_halFlashClose
-                0x000000000800757a        0x4 vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/nvm3/src/nvm3_hal_flash.o
+                0x00000000080075aa        0x4 vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/nvm3/src/nvm3_hal_flash.o
  .text.nvm3_halFlashOpen
-                0x000000000800757e        0xa vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/nvm3/src/nvm3_hal_flash.o
+                0x00000000080075ae        0xa vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/nvm3/src/nvm3_hal_flash.o
  .text.nvm3_halFlashReadWords
-                0x0000000008007588       0x2e vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/nvm3/src/nvm3_hal_flash.o
+                0x00000000080075b8       0x2e vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/nvm3/src/nvm3_hal_flash.o
  .text.nvm3_lockDisableExecute
-                0x00000000080075b6        0x2 vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/nvm3/src/nvm3_lock.o
-                0x00000000080075b6                nvm3_lockDisableExecute
+                0x00000000080075e6        0x2 vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/nvm3/src/nvm3_lock.o
+                0x00000000080075e6                nvm3_lockDisableExecute
  .text.BUS_RegMaskedWrite
-                0x00000000080075b8       0x22 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_cmu.o
+                0x00000000080075e8       0x22 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_cmu.o
  .text.waitStateMax
-                0x00000000080075da       0x10 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_cmu.o
+                0x000000000800760a       0x10 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_cmu.o
  .text.CMU_UpdateWaitStates
-                0x00000000080075ea        0xc vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_cmu.o
-                0x00000000080075ea                CMU_UpdateWaitStates
+                0x000000000800761a        0xc vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_cmu.o
+                0x000000000800761a                CMU_UpdateWaitStates
  .text.pclkDivMax
-                0x00000000080075f6        0xa vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_cmu.o
+                0x0000000008007626        0xa vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_cmu.o
  .text.sli_em_cmu_SYSCLKInitPostClockSelect
-                0x0000000008007600       0x2a vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_cmu.o
-                0x0000000008007600                sli_em_cmu_SYSCLKInitPostClockSelect
+                0x0000000008007630       0x2a vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_cmu.o
+                0x0000000008007630                sli_em_cmu_SYSCLKInitPostClockSelect
  .text.CORE_EnterCritical
-                0x000000000800762a        0x8 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_core.o
-                0x000000000800762a                CORE_EnterCritical
+                0x000000000800765a        0x8 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_core.o
+                0x000000000800765a                CORE_EnterCritical
  .text.CORE_ExitCritical
-                0x0000000008007632        0x6 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_core.o
-                0x0000000008007632                CORE_ExitCritical
+                0x0000000008007662        0x6 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_core.o
+                0x0000000008007662                CORE_ExitCritical
  .text.CORE_EnterAtomic
-                0x0000000008007638        0xc vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_core.o
-                0x0000000008007638                CORE_EnterAtomic
+                0x0000000008007668        0xc vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_core.o
+                0x0000000008007668                CORE_EnterAtomic
  .text.CORE_ExitAtomic
-                0x0000000008007644        0x6 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_core.o
-                0x0000000008007644                CORE_ExitAtomic
+                0x0000000008007674        0x6 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_core.o
+                0x0000000008007674                CORE_ExitAtomic
  .text.EMU_EFPEM01VScale
-                0x000000000800764a        0x2 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_emu.o
-                0x000000000800764a                EMU_EFPEM01VScale
+                0x000000000800767a        0x2 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_emu.o
+                0x000000000800767a                EMU_EFPEM01VScale
  .text.EMU_DCDCUpdatedHook
-                0x000000000800764c        0x2 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_emu.o
-                0x000000000800764c                EMU_DCDCUpdatedHook
+                0x000000000800767c        0x2 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_emu.o
+                0x000000000800767c                EMU_DCDCUpdatedHook
  .text.eusart_sync
-                0x000000000800764e        0x8 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_eusart.o
+                0x000000000800767e        0x8 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_eusart.o
  .text.EUSART_Disable
-                0x0000000008007656       0x34 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_eusart.o
+                0x0000000008007686       0x34 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_eusart.o
  .text.EUSART_Tx
-                0x000000000800768a        0xa vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_eusart.o
-                0x000000000800768a                EUSART_Tx
+                0x00000000080076ba        0xa vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_eusart.o
+                0x00000000080076ba                EUSART_Tx
  .text.BUS_RegMaskedWrite
-                0x0000000008007694       0x22 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_gpio.o
+                0x00000000080076c4       0x22 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_gpio.o
  .text.GPIO_DbgLocationSet
-                0x00000000080076b6        0x2 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_gpio.o
-                0x00000000080076b6                GPIO_DbgLocationSet
+                0x00000000080076e6        0x2 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_gpio.o
+                0x00000000080076e6                GPIO_DbgLocationSet
  .text.USART_SpiTransfer
-                0x00000000080076b8       0x14 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_usart.o
-                0x00000000080076b8                USART_SpiTransfer
+                0x00000000080076e8       0x14 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_usart.o
+                0x00000000080076e8                USART_SpiTransfer
  .text.sli_cli_session_activity_notification
-                0x00000000080076cc        0x2 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli.o
-                0x00000000080076cc                sli_cli_session_activity_notification
+                0x00000000080076fc        0x2 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli.o
+                0x00000000080076fc                sli_cli_session_activity_notification
  .text.sli_cli_session_init
-                0x00000000080076ce        0x4 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli.o
-                0x00000000080076ce                sli_cli_session_init
+                0x00000000080076fe        0x4 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli.o
+                0x00000000080076fe                sli_cli_session_init
  .text.sli_cli_session_handler
-                0x00000000080076d2        0x4 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli.o
-                0x00000000080076d2                sli_cli_session_handler
+                0x0000000008007702        0x4 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli.o
+                0x0000000008007702                sli_cli_session_handler
  .text.sli_cli_handle_input_and_history
-                0x00000000080076d6       0x26 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli.o
-                0x00000000080076d6                sli_cli_handle_input_and_history
+                0x0000000008007706       0x26 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli.o
+                0x0000000008007706                sli_cli_handle_input_and_history
  .text.sl_cli_instance_init
-                0x00000000080076fc       0x28 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli.o
-                0x00000000080076fc                sl_cli_instance_init
+                0x000000000800772c       0x28 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli.o
+                0x000000000800772c                sl_cli_instance_init
  .text.sl_cli_tick_instance
-                0x0000000008007724        0x8 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli.o
-                0x0000000008007724                sl_cli_tick_instance
+                0x0000000008007754        0x8 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli.o
+                0x0000000008007754                sl_cli_tick_instance
  .text.sli_cli_arguments_validate_int
-                0x000000000800772c       0x12 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_arguments.o
-                0x000000000800772c                sli_cli_arguments_validate_int
+                0x000000000800775c       0x12 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_arguments.o
+                0x000000000800775c                sli_cli_arguments_validate_int
  .text.sli_cli_validate_argument
-                0x000000000800773e       0x40 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_arguments.o
-                0x000000000800773e                sli_cli_validate_argument
+                0x000000000800776e       0x40 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_arguments.o
+                0x000000000800776e                sli_cli_validate_argument
  .text.sli_cli_arguments_convert_single
-                0x000000000800777e       0xfc vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_arguments.o
-                0x000000000800777e                sli_cli_arguments_convert_single
+                0x00000000080077ae       0xfc vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_arguments.o
+                0x00000000080077ae                sli_cli_arguments_convert_single
  .text.sli_cli_arguments_convert_multiple
-                0x000000000800787a       0xf8 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_arguments.o
-                0x000000000800787a                sli_cli_arguments_convert_multiple
+                0x00000000080078aa       0xf8 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_arguments.o
+                0x00000000080078aa                sli_cli_arguments_convert_multiple
  .text.scan_entry
-                0x0000000008007972       0x90 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_command.o
+                0x00000000080079a2       0x90 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_command.o
  .text.cmd_help_group
-                0x0000000008007a02       0x18 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_command.o
+                0x0000000008007a32       0x18 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_command.o
  .text.sli_cli_pre_cmd_hook
-                0x0000000008007a1a        0x2 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_command.o
-                0x0000000008007a1a                sli_cli_pre_cmd_hook
+                0x0000000008007a4a        0x2 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_command.o
+                0x0000000008007a4a                sli_cli_pre_cmd_hook
  .text.sli_cli_post_cmd_hook
-                0x0000000008007a1c        0x2 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_command.o
-                0x0000000008007a1c                sli_cli_post_cmd_hook
+                0x0000000008007a4c        0x2 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_command.o
+                0x0000000008007a4c                sli_cli_post_cmd_hook
  .text.sl_cli_command_add_command_group
-                0x0000000008007a1e       0x1c vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_command.o
-                0x0000000008007a1e                sl_cli_command_add_command_group
+                0x0000000008007a4e       0x1c vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_command.o
+                0x0000000008007a4e                sl_cli_command_add_command_group
  .text.sl_cli_command_execute
-                0x0000000008007a3a       0xae vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_command.o
-                0x0000000008007a3a                sl_cli_command_execute
+                0x0000000008007a6a       0xae vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_command.o
+                0x0000000008007a6a                sl_cli_command_execute
  .text.history_get_count
-                0x0000000008007ae8       0x28 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_input.o
+                0x0000000008007b18       0x28 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_input.o
  .text.history_get_ofs
-                0x0000000008007b10       0x66 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_input.o
+                0x0000000008007b40       0x66 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_input.o
  .text.sl_cli_input_clear
-                0x0000000008007b76       0x16 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_input.o
-                0x0000000008007b76                sl_cli_input_clear
+                0x0000000008007ba6       0x16 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_input.o
+                0x0000000008007ba6                sl_cli_input_clear
  .text.sli_cli_input_update_history
-                0x0000000008007b8c       0x88 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_input.o
-                0x0000000008007b8c                sli_cli_input_update_history
+                0x0000000008007bbc       0x88 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_input.o
+                0x0000000008007bbc                sli_cli_input_update_history
  .text.sl_cli_input_get_history
-                0x0000000008007c14       0x92 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_input.o
-                0x0000000008007c14                sl_cli_input_get_history
+                0x0000000008007c44       0x92 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_input.o
+                0x0000000008007c44                sl_cli_input_get_history
  .text.sli_cli_io_getchar
-                0x0000000008007ca6       0x1e vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_io.o
-                0x0000000008007ca6                sli_cli_io_getchar
+                0x0000000008007cd6       0x1e vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_io.o
+                0x0000000008007cd6                sli_cli_io_getchar
  .text.sli_cli_io_putchar
-                0x0000000008007cc4       0x18 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_io.o
-                0x0000000008007cc4                sli_cli_io_putchar
+                0x0000000008007cf4       0x18 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_io.o
+                0x0000000008007cf4                sli_cli_io_putchar
  .text.sli_cli_io_printf
-                0x0000000008007cdc       0x1c vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_io.o
-                0x0000000008007cdc                sli_cli_io_printf
- .text.escape   0x0000000008007cf8       0x26 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_tokenize.o
+                0x0000000008007d0c       0x1c vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_io.o
+                0x0000000008007d0c                sli_cli_io_printf
+ .text.escape   0x0000000008007d28       0x26 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_tokenize.o
  .text.sl_cli_tokenize
-                0x0000000008007d1e       0xe8 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_tokenize.o
-                0x0000000008007d1e                sl_cli_tokenize
+                0x0000000008007d4e       0xe8 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_tokenize.o
+                0x0000000008007d4e                sl_cli_tokenize
  .text.sl_iostream_write
-                0x0000000008007e06       0x28 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream.o
-                0x0000000008007e06                sl_iostream_write
+                0x0000000008007e36       0x28 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream.o
+                0x0000000008007e36                sl_iostream_write
  .text.sl_iostream_read
-                0x0000000008007e2e       0x32 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream.o
-                0x0000000008007e2e                sl_iostream_read
+                0x0000000008007e5e       0x32 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream.o
+                0x0000000008007e5e                sl_iostream_read
  .text.sl_iostream_putchar
-                0x0000000008007e60       0x16 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream.o
-                0x0000000008007e60                sl_iostream_putchar
+                0x0000000008007e90       0x16 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream.o
+                0x0000000008007e90                sl_iostream_putchar
  .text.sl_iostream_getchar
-                0x0000000008007e76        0x8 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream.o
-                0x0000000008007e76                sl_iostream_getchar
+                0x0000000008007ea6        0x8 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream.o
+                0x0000000008007ea6                sl_iostream_getchar
  .text.eusart_deinit
-                0x0000000008007e7e       0x70 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_eusart.o
+                0x0000000008007eae       0x70 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_eusart.o
  .text.eusart_set_next_byte_detect
-                0x0000000008007eee       0x30 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_eusart.o
+                0x0000000008007f1e       0x30 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_eusart.o
  .text.eusart_tx
-                0x0000000008007f1e        0xc vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_eusart.o
+                0x0000000008007f4e        0xc vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_eusart.o
  .text.sl_iostream_eusart_irq_handler
-                0x0000000008007f2a       0x72 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_eusart.o
-                0x0000000008007f2a                sl_iostream_eusart_irq_handler
- .text._close   0x0000000008007f9c        0x4 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_retarget_stdio.o
-                0x0000000008007f9c                _close
- .text._exit    0x0000000008007fa0        0x2 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_retarget_stdio.o
-                0x0000000008007fa0                _exit
- .text._fstat   0x0000000008007fa2        0xa vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_retarget_stdio.o
-                0x0000000008007fa2                _fstat
- .text._isatty  0x0000000008007fac        0x4 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_retarget_stdio.o
-                0x0000000008007fac                _isatty
- .text._lseek   0x0000000008007fb0        0x4 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_retarget_stdio.o
-                0x0000000008007fb0                _lseek
- .text._read    0x0000000008007fb4       0x1c vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_retarget_stdio.o
-                0x0000000008007fb4                _read
+                0x0000000008007f5a       0x72 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_eusart.o
+                0x0000000008007f5a                sl_iostream_eusart_irq_handler
+ .text._close   0x0000000008007fcc        0x4 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_retarget_stdio.o
+                0x0000000008007fcc                _close
+ .text._exit    0x0000000008007fd0        0x2 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_retarget_stdio.o
+                0x0000000008007fd0                _exit
+ .text._fstat   0x0000000008007fd2        0xa vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_retarget_stdio.o
+                0x0000000008007fd2                _fstat
+ .text._isatty  0x0000000008007fdc        0x4 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_retarget_stdio.o
+                0x0000000008007fdc                _isatty
+ .text._lseek   0x0000000008007fe0        0x4 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_retarget_stdio.o
+                0x0000000008007fe0                _lseek
+ .text._read    0x0000000008007fe4       0x1c vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_retarget_stdio.o
+                0x0000000008007fe4                _read
  .text.set_auto_cr_lf
-                0x0000000008007fd0        0x6 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_uart.o
+                0x0000000008008000        0x6 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_uart.o
  .text.get_auto_cr_lf
-                0x0000000008007fd6        0x6 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_uart.o
+                0x0000000008008006        0x6 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_uart.o
  .text.sl_system_init
-                0x0000000008007fdc       0x1a vscode-build/obj/gecko_sdk_4.3.1/platform/service/system/src/sl_system_init.o
-                0x0000000008007fdc                sl_system_init
+                0x000000000800800c       0x1a vscode-build/obj/gecko_sdk_4.3.1/platform/service/system/src/sl_system_init.o
+                0x000000000800800c                sl_system_init
  .text.sl_system_process_action
-                0x0000000008007ff6       0x16 vscode-build/obj/gecko_sdk_4.3.1/platform/service/system/src/sl_system_process_action.o
-                0x0000000008007ff6                sl_system_process_action
+                0x0000000008008026       0x16 vscode-build/obj/gecko_sdk_4.3.1/platform/service/system/src/sl_system_process_action.o
+                0x0000000008008026                sl_system_process_action
  .text.startup.main
-                0x000000000800800c       0x14 vscode-build/obj/main.o
-                0x000000000800800c                main
- .text.memcmp   0x0000000008008020       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-memcmp.o)
-                0x0000000008008020                memcmp
- .text.memcpy   0x0000000008008040       0x1a /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-memcpy-stub.o)
-                0x0000000008008040                memcpy
- .text.memmove  0x000000000800805a       0x34 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-memmove.o)
-                0x000000000800805a                memmove
- .text.memset   0x000000000800808e       0x10 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-memset.o)
-                0x000000000800808e                memset
- .text          0x000000000800809e       0x14 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strcmp.o)
-                0x000000000800809e                strcmp
- .text          0x00000000080080b2       0x10 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strlen.o)
-                0x00000000080080b2                strlen
- .text.strncmp  0x00000000080080c2       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strncmp.o)
-                0x00000000080080c2                strncmp
+                0x000000000800803c       0x14 vscode-build/obj/main.o
+                0x000000000800803c                main
+ .text.memcmp   0x0000000008008050       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-memcmp.o)
+                0x0000000008008050                memcmp
+ .text.memcpy   0x0000000008008070       0x1a /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+                0x0000000008008070                memcpy
+ .text.memmove  0x000000000800808a       0x34 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-memmove.o)
+                0x000000000800808a                memmove
+ .text.memset   0x00000000080080be       0x10 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-memset.o)
+                0x00000000080080be                memset
+ .text          0x00000000080080ce       0x14 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strcmp.o)
+                0x00000000080080ce                strcmp
+ .text          0x00000000080080e2       0x10 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strlen.o)
+                0x00000000080080e2                strlen
+ .text.strncmp  0x00000000080080f2       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strncmp.o)
+                0x00000000080080f2                strncmp
  .text.__sfmoreglue
-                0x00000000080080ea       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x00000000080080ea                __sfmoreglue
+                0x000000000800811a       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x000000000800811a                __sfmoreglue
  .text._fwalk_reent
-                0x0000000008008116       0x3e /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-fwalk.o)
-                0x0000000008008116                _fwalk_reent
+                0x0000000008008146       0x3e /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-fwalk.o)
+                0x0000000008008146                _fwalk_reent
  .text.__retarget_lock_init_recursive
-                0x0000000008008154        0x2 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-lock.o)
-                0x0000000008008154                __retarget_lock_init_recursive
+                0x0000000008008184        0x2 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-lock.o)
+                0x0000000008008184                __retarget_lock_init_recursive
  .text.__retarget_lock_acquire_recursive
-                0x0000000008008156        0x2 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-lock.o)
-                0x0000000008008156                __retarget_lock_acquire_recursive
+                0x0000000008008186        0x2 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-lock.o)
+                0x0000000008008186                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x0000000008008158        0x2 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-lock.o)
-                0x0000000008008158                __retarget_lock_release_recursive
+                0x0000000008008188        0x2 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-lock.o)
+                0x0000000008008188                __retarget_lock_release_recursive
  .text.__swhatbuf_r
-                0x000000000800815a       0x4a /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-makebuf.o)
-                0x000000000800815a                __swhatbuf_r
+                0x000000000800818a       0x4a /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-makebuf.o)
+                0x000000000800818a                __swhatbuf_r
  .text.__sfputc_r
-                0x00000000080081a4       0x2e /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x00000000080081d4       0x2e /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
  .text.__sfputs_r
-                0x00000000080081d2       0x24 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
-                0x00000000080081d2                __sfputs_r
+                0x0000000008008202       0x24 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000008008202                __sfputs_r
  .text._printf_common
-                0x00000000080081f6       0xe0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x00000000080081f6                _printf_common
- .text.__sread  0x00000000080082d6       0x22 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-stdio.o)
-                0x00000000080082d6                __sread
+                0x0000000008008226       0xe0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008008226                _printf_common
+ .text.__sread  0x0000000008008306       0x22 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-stdio.o)
+                0x0000000008008306                __sread
  .text.__swrite
-                0x00000000080082f8       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-stdio.o)
-                0x00000000080082f8                __swrite
- .text.__sseek  0x0000000008008330       0x24 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-stdio.o)
-                0x0000000008008330                __sseek
+                0x0000000008008328       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-stdio.o)
+                0x0000000008008328                __swrite
+ .text.__sseek  0x0000000008008360       0x24 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-stdio.o)
+                0x0000000008008360                __sseek
  .text.__sclose
-                0x0000000008008354        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-stdio.o)
-                0x0000000008008354                __sclose
- .text.memchr   0x000000000800835c       0x1c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-memchr-stub.o)
-                0x000000000800835c                memchr
- .text.thrHard  0x0000000008008378       0x2a gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008008384        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-stdio.o)
+                0x0000000008008384                __sclose
+ .text.memchr   0x000000000800838c       0x1c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-memchr-stub.o)
+                0x000000000800838c                memchr
+ .text.thrHard  0x00000000080083a8       0x2a gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.thrSoftMinimum
-                0x00000000080083a2       0x20 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x00000000080083d2       0x20 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.scanPage
-                0x00000000080083c2       0x32 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x00000000080083f2       0x32 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.workBegin
-                0x00000000080083f4       0x18 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008008424       0x18 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.findValidPageCnt
-                0x000000000800840c       0x3e gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x000000000800843c       0x3e gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.erasePage
-                0x000000000800844a       0x22 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x000000000800847a       0x22 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.getPreviousGoodPage
-                0x000000000800846c       0x42 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x000000000800849c       0x42 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.findCurrentEraseCnt
-                0x00000000080084ae       0x5e gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x00000000080084de       0x5e gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.eraseAllPages
-                0x000000000800850c       0x7a gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x000000000800853c       0x7a gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.getFirstObjAdrInNextGoodPage
-                0x0000000008008586       0x5a gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x00000000080085b6       0x5a gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.getNextObj
-                0x00000000080085e0       0x2e gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008008610       0x2e gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.getFreeSize
-                0x000000000800860e       0x64 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x000000000800863e       0x64 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.findNumberOfUnusedPages
-                0x0000000008008672       0x52 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x00000000080086a2       0x52 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.cacheUpdateCallback
-                0x00000000080086c4       0x12 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x00000000080086f4       0x12 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.validateObj
-                0x00000000080086d6       0x24 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008008706       0x24 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.eraseFirstPageCallback
-                0x00000000080086fa       0x2e gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x000000000800872a       0x2e gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.enumScanCacheCallback
-                0x0000000008008728       0x36 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008008758       0x36 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.eraseFirstPageScanCacheCallback
-                0x000000000800875e       0x1c gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x000000000800878e       0x1c gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.workEnd.isra.0
-                0x000000000800877a       0x10 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x00000000080087aa       0x10 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.counterIdxToAdr.isra.0
-                0x000000000800878a       0x66 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x00000000080087ba       0x66 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.counterIncFldGet
-                0x00000000080087f0       0x40 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008008820       0x40 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.readCounter
-                0x0000000008008830      0x18e gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008008860      0x18e gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
  .text.nvm3_enumObjects
-                0x00000000080089be       0x12 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
-                0x00000000080089be                nvm3_enumObjects
+                0x00000000080089ee       0x12 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x00000000080089ee                nvm3_enumObjects
  .text.nvm3_enumDeletedObjects
-                0x00000000080089d0       0x12 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
-                0x00000000080089d0                nvm3_enumDeletedObjects
+                0x0000000008008a00       0x12 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008008a00                nvm3_enumDeletedObjects
  .text.nvm3_repackNeeded
-                0x00000000080089e2       0x34 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
-                0x00000000080089e2                nvm3_repackNeeded
+                0x0000000008008a12       0x34 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3.o)
+                0x0000000008008a12                nvm3_repackNeeded
  .text.nvm3_cacheClear
-                0x0000000008008a16       0x24 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_cache.o)
-                0x0000000008008a16                nvm3_cacheClear
+                0x0000000008008a46       0x24 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_cache.o)
+                0x0000000008008a46                nvm3_cacheClear
  .text.nvm3_cacheOpen
-                0x0000000008008a3a        0x8 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_cache.o)
-                0x0000000008008a3a                nvm3_cacheOpen
+                0x0000000008008a6a        0x8 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_cache.o)
+                0x0000000008008a6a                nvm3_cacheOpen
  .text.nvm3_cacheDelete
-                0x0000000008008a42       0x30 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_cache.o)
-                0x0000000008008a42                nvm3_cacheDelete
+                0x0000000008008a72       0x30 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_cache.o)
+                0x0000000008008a72                nvm3_cacheDelete
  .text.nvm3_cacheGet
-                0x0000000008008a72       0x34 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_cache.o)
-                0x0000000008008a72                nvm3_cacheGet
+                0x0000000008008aa2       0x34 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_cache.o)
+                0x0000000008008aa2                nvm3_cacheGet
  .text.nvm3_objHdrValidateSmall
-                0x0000000008008aa6       0x2a gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
-                0x0000000008008aa6                nvm3_objHdrValidateSmall
+                0x0000000008008ad6       0x2a gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
+                0x0000000008008ad6                nvm3_objHdrValidateSmall
  .text.nvm3_objHdrValidateLarge
-                0x0000000008008ad0       0x36 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
-                0x0000000008008ad0                nvm3_objHdrValidateLarge
+                0x0000000008008b00       0x36 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
+                0x0000000008008b00                nvm3_objHdrValidateLarge
  .text.nvm3_objHdrGetErased
-                0x0000000008008b06        0xa gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
-                0x0000000008008b06                nvm3_objHdrGetErased
+                0x0000000008008b36        0xa gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
+                0x0000000008008b36                nvm3_objHdrGetErased
  .text.nvm3_objHdrGetFragTyp
-                0x0000000008008b10       0x10 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
-                0x0000000008008b10                nvm3_objHdrGetFragTyp
+                0x0000000008008b40       0x10 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
+                0x0000000008008b40                nvm3_objHdrGetFragTyp
  .text.nvm3_objHdrGetKey
-                0x0000000008008b20        0x8 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
-                0x0000000008008b20                nvm3_objHdrGetKey
+                0x0000000008008b50        0x8 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
+                0x0000000008008b50                nvm3_objHdrGetKey
  .text.nvm3_objHdrGetHdrIsLarge
-                0x0000000008008b28       0x10 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
-                0x0000000008008b28                nvm3_objHdrGetHdrIsLarge
+                0x0000000008008b58       0x10 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
+                0x0000000008008b58                nvm3_objHdrGetHdrIsLarge
  .text.nvm3_objHdrGetHdrLen
-                0x0000000008008b38        0xe gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
-                0x0000000008008b38                nvm3_objHdrGetHdrLen
+                0x0000000008008b68        0xe gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
+                0x0000000008008b68                nvm3_objHdrGetHdrLen
  .text.nvm3_objHdrGetDatLen
-                0x0000000008008b46       0x1e gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
-                0x0000000008008b46                nvm3_objHdrGetDatLen
+                0x0000000008008b76       0x1e gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
+                0x0000000008008b76                nvm3_objHdrGetDatLen
  .text.nvm3_objHdrGetType
-                0x0000000008008b64        0x8 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
-                0x0000000008008b64                nvm3_objHdrGetType
+                0x0000000008008b94        0x8 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
+                0x0000000008008b94                nvm3_objHdrGetType
  .text.nvm3_objGroupToType
-                0x0000000008008b6c       0x1a gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
-                0x0000000008008b6c                nvm3_objGroupToType
+                0x0000000008008b9c       0x1a gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
+                0x0000000008008b9c                nvm3_objGroupToType
  .text.nvm3_utilsComputeBergerCode
-                0x0000000008008b86       0x3c gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_utils.o)
-                0x0000000008008b86                nvm3_utilsComputeBergerCode
+                0x0000000008008bb6       0x3c gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_utils.o)
+                0x0000000008008bb6                nvm3_utilsComputeBergerCode
  .text.nvm3_pageSetBad
-                0x0000000008008bc2       0x26 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_page.o)
-                0x0000000008008bc2                nvm3_pageSetBad
+                0x0000000008008bf2       0x26 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_page.o)
+                0x0000000008008bf2                nvm3_pageSetBad
  .text.nvm3_pageSetEip
-                0x0000000008008be8       0x3e gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_page.o)
-                0x0000000008008be8                nvm3_pageSetEip
+                0x0000000008008c18       0x3e gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_page.o)
+                0x0000000008008c18                nvm3_pageSetEip
  .text.nvm3_pageGetEraseCnt
-                0x0000000008008c26       0x52 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_page.o)
-                0x0000000008008c26                nvm3_pageGetEraseCnt
+                0x0000000008008c56       0x52 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_page.o)
+                0x0000000008008c56                nvm3_pageGetEraseCnt
  .text.nvm3_pageGetState
-                0x0000000008008c78       0x4a gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_page.o)
-                0x0000000008008c78                nvm3_pageGetState
+                0x0000000008008ca8       0x4a gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_page.o)
+                0x0000000008008ca8                nvm3_pageGetState
  .text.nvm3_pageStateIsGood
-                0x0000000008008cc2        0xa gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_page.o)
-                0x0000000008008cc2                nvm3_pageStateIsGood
+                0x0000000008008cf2        0xa gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_page.o)
+                0x0000000008008cf2                nvm3_pageStateIsGood
  .text.nvm3_pageStateIsInvalid
-                0x0000000008008ccc        0xc gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_page.o)
-                0x0000000008008ccc                nvm3_pageStateIsInvalid
+                0x0000000008008cfc        0xc gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_page.o)
+                0x0000000008008cfc                nvm3_pageStateIsInvalid
  .text.nvm3_pageGetFirstObj
-                0x0000000008008cd8        0x4 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_page.o)
-                0x0000000008008cd8                nvm3_pageGetFirstObj
+                0x0000000008008d08        0x4 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_page.o)
+                0x0000000008008d08                nvm3_pageGetFirstObj
  .text.nvm3_pageErase
-                0x0000000008008cdc       0x34 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_page.o)
-                0x0000000008008cdc                nvm3_pageErase
-                0x0000000008008d10                linker_code_end = .
+                0x0000000008008d0c       0x34 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_page.o)
+                0x0000000008008d0c                nvm3_pageErase
+                0x0000000008008d40                linker_code_end = .
  *(.init)
- .init          0x0000000008008d10        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crti.o
-                0x0000000008008d10                _init
- .init          0x0000000008008d14        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crtn.o
+ .init          0x0000000008008d40        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crti.o
+                0x0000000008008d40                _init
+ .init          0x0000000008008d44        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crtn.o
  *(.fini)
- .fini          0x0000000008008d1c        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crti.o
-                0x0000000008008d1c                _fini
- .fini          0x0000000008008d20        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crtn.o
- .fini.__stub   0x0000000008008d28       0x20 linker stubs
+ .fini          0x0000000008008d4c        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crti.o
+                0x0000000008008d4c                _fini
+ .fini          0x0000000008008d50        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crtn.o
+ .fini.__stub   0x0000000008008d58       0x20 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2145,185 +2145,185 @@ LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/g
  *(.dtors)
  *(.rodata*)
  .rodata.str1.1
-                0x0000000008008d48       0xb3 vscode-build/obj/autogen/sl_cli_command_table.o
+                0x0000000008008d78       0xb3 vscode-build/obj/autogen/sl_cli_command_table.o
                                          0xb4 (size before relaxing)
- *fill*         0x0000000008008dfb        0x1 
+ *fill*         0x0000000008008e2b        0x1 
  .rodata.cli_cmd__delete
-                0x0000000008008dfc        0xe vscode-build/obj/autogen/sl_cli_command_table.o
- *fill*         0x0000000008008e0a        0x2 
+                0x0000000008008e2c        0xe vscode-build/obj/autogen/sl_cli_command_table.o
+ *fill*         0x0000000008008e3a        0x2 
  .rodata.cli_cmd__display
-                0x0000000008008e0c        0xd vscode-build/obj/autogen/sl_cli_command_table.o
- *fill*         0x0000000008008e19        0x3 
+                0x0000000008008e3c        0xd vscode-build/obj/autogen/sl_cli_command_table.o
+ *fill*         0x0000000008008e49        0x3 
  .rodata.cli_cmd__read
-                0x0000000008008e1c        0xe vscode-build/obj/autogen/sl_cli_command_table.o
- *fill*         0x0000000008008e2a        0x2 
+                0x0000000008008e4c        0xe vscode-build/obj/autogen/sl_cli_command_table.o
+ *fill*         0x0000000008008e5a        0x2 
  .rodata.cli_cmd__reset
-                0x0000000008008e2c        0xd vscode-build/obj/autogen/sl_cli_command_table.o
- *fill*         0x0000000008008e39        0x3 
+                0x0000000008008e5c        0xd vscode-build/obj/autogen/sl_cli_command_table.o
+ *fill*         0x0000000008008e69        0x3 
  .rodata.cli_cmd__write
-                0x0000000008008e3c        0xf vscode-build/obj/autogen/sl_cli_command_table.o
- *fill*         0x0000000008008e4b        0x1 
+                0x0000000008008e6c        0xf vscode-build/obj/autogen/sl_cli_command_table.o
+ *fill*         0x0000000008008e7b        0x1 
  .rodata.sl_cli_default_command_table
-                0x0000000008008e4c       0x48 vscode-build/obj/autogen/sl_cli_command_table.o
-                0x0000000008008e4c                sl_cli_default_command_table
+                0x0000000008008e7c       0x48 vscode-build/obj/autogen/sl_cli_command_table.o
+                0x0000000008008e7c                sl_cli_default_command_table
  .rodata.sl_cli_instances_init.str1.1
-                0x0000000008008e94       0x12 vscode-build/obj/autogen/sl_cli_instances.o
+                0x0000000008008ec4       0x12 vscode-build/obj/autogen/sl_cli_instances.o
  .rodata.sl_iostream_eusart_init_vcom.str1.1
-                0x0000000008008ea6       0x2c vscode-build/obj/autogen/sl_iostream_init_eusart_instances.o
- *fill*         0x0000000008008ed2        0x2 
- .rodata        0x0000000008008ed4       0x20 vscode-build/obj/autogen/sl_iostream_init_eusart_instances.o
- .rodata        0x0000000008008ef4       0x1c vscode-build/obj/gecko_sdk_4.3.1/hardware/driver/mx25_flash_shutdown/src/sl_mx25_flash_shutdown_usart/sl_mx25_flash_shutdown.o
+                0x0000000008008ed6       0x2c vscode-build/obj/autogen/sl_iostream_init_eusart_instances.o
+ *fill*         0x0000000008008f02        0x2 
+ .rodata        0x0000000008008f04       0x20 vscode-build/obj/autogen/sl_iostream_init_eusart_instances.o
+ .rodata        0x0000000008008f24       0x1c vscode-build/obj/gecko_sdk_4.3.1/hardware/driver/mx25_flash_shutdown/src/sl_mx25_flash_shutdown_usart/sl_mx25_flash_shutdown.o
  .rodata.sl_slist_push.str1.1
-                0x0000000008008f10       0x2f vscode-build/obj/gecko_sdk_4.3.1/platform/common/src/sl_slist.o
- .rodata        0x0000000008008f3f        0x4 vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/dmadrv/src/dmadrv.o
- *fill*         0x0000000008008f43        0x1 
+                0x0000000008008f40       0x2f vscode-build/obj/gecko_sdk_4.3.1/platform/common/src/sl_slist.o
+ .rodata        0x0000000008008f6f        0x4 vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/dmadrv/src/dmadrv.o
+ *fill*         0x0000000008008f73        0x1 
  .rodata.nvm3_halFlashHandle
-                0x0000000008008f44       0x1c vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/nvm3/src/nvm3_hal_flash.o
-                0x0000000008008f44                nvm3_halFlashHandle
+                0x0000000008008f74       0x1c vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/nvm3/src/nvm3_hal_flash.o
+                0x0000000008008f74                nvm3_halFlashHandle
  .rodata.nvm3_maxFragmentCount
-                0x0000000008008f60        0x1 vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/nvm3/src/nvm3_lock.o
-                0x0000000008008f60                nvm3_maxFragmentCount
- *fill*         0x0000000008008f61        0x3 
+                0x0000000008008f90        0x1 vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/nvm3/src/nvm3_lock.o
+                0x0000000008008f90                nvm3_maxFragmentCount
+ *fill*         0x0000000008008f91        0x3 
  .rodata.nvm3_objHandleSize
-                0x0000000008008f64        0x4 vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/nvm3/src/nvm3_lock.o
-                0x0000000008008f64                nvm3_objHandleSize
+                0x0000000008008f94        0x4 vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/nvm3/src/nvm3_lock.o
+                0x0000000008008f94                nvm3_objHandleSize
  .rodata.HFRCODPLLDevinfoGet.str1.1
-                0x0000000008008f68       0x2c vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_cmu.o
+                0x0000000008008f98       0x2c vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_cmu.o
  .rodata.EMU_VScaleEM01.str1.1
-                0x0000000008008f94       0x2c vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_emu.o
+                0x0000000008008fc4       0x2c vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_emu.o
  .rodata.EUSART_Enable.str1.1
-                0x0000000008008fc0       0x2f vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_eusart.o
+                0x0000000008008ff0       0x2f vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_eusart.o
  .rodata.GPIO_PinOutSet.str1.1
-                0x0000000008008fef       0x2d vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_gpio.o
+                0x000000000800901f       0x2d vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_gpio.o
  .rodata.GPIO_ExtIntConfig.str1.1
-                0x000000000800901c       0x2d vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_gpio.o
+                0x000000000800904c       0x2d vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_gpio.o
  .rodata.LDMA_EnableChannelRequest.str1.1
-                0x0000000008009049       0x59 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_ldma.o
+                0x0000000008009079       0x59 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_ldma.o
  .rodata.str1.1
-                0x00000000080090a2       0x2c vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_msc.o
+                0x00000000080090d2       0x2c vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_msc.o
  .rodata.USART_BaudrateAsyncSet.str1.1
-                0x00000000080090ce       0x2e vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_usart.o
+                0x00000000080090fe       0x2e vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_usart.o
  .rodata.sl_cli_clear.str1.1
-                0x00000000080090fc        0x3 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli.o
+                0x000000000800912c        0x3 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli.o
  .rodata.sl_cli_handle_input.str1.1
-                0x00000000080090ff       0x12 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli.o
+                0x000000000800912f       0x12 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli.o
  .rodata.sli_cli_tick.str1.1
-                0x0000000008009111       0x12 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli.o
+                0x0000000008009141       0x12 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli.o
                                           0x3 (size before relaxing)
  .rodata.str1.1
-                0x0000000008009111       0x94 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli.o
+                0x0000000008009141       0x94 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli.o
                                          0x95 (size before relaxing)
- *fill*         0x00000000080091a5        0x3 
+ *fill*         0x00000000080091d5        0x3 
  .rodata.CSWTCH.4
-                0x00000000080091a8       0xb8 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli.o
+                0x00000000080091d8       0xb8 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli.o
  .rodata.print_and_pad.str1.1
-                0x0000000008009260       0x94 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_command.o
+                0x0000000008009290       0x94 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_command.o
                                           0x2 (size before relaxing)
  .rodata.cmd_help_command.str1.1
-                0x0000000008009260       0x76 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_command.o
+                0x0000000008009290       0x76 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_command.o
                                          0xa7 (size before relaxing)
  .rodata.sl_cli_command_find_matches.str1.1
-                0x00000000080092d6        0x5 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_command.o
+                0x0000000008009306        0x5 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_command.o
  .rodata.sl_cli_command_find.str1.1
-                0x00000000080092db        0x5 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_command.o
+                0x000000000800930b        0x5 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_command.o
  .rodata.sl_cli_input_autocomplete.str1.1
-                0x00000000080092e0        0x9 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_input.o
+                0x0000000008009310        0x9 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_input.o
                                           0xc (size before relaxing)
  .rodata.sl_cli_input_char.str1.1
-                0x00000000080092e9        0x9 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_input.o
- .rodata        0x00000000080092f2        0x7 vscode-build/obj/gecko_sdk_4.3.1/platform/service/device_init/src/sl_device_init_dcdc_s2.o
- *fill*         0x00000000080092f9        0x3 
- .rodata        0x00000000080092fc       0x28 vscode-build/obj/gecko_sdk_4.3.1/platform/service/device_init/src/sl_device_init_hfxo_s2.o
- .rodata        0x0000000008009324       0x14 vscode-build/obj/gecko_sdk_4.3.1/platform/service/device_init/src/sl_device_init_lfxo_s2.o
+                0x0000000008009319        0x9 vscode-build/obj/gecko_sdk_4.3.1/platform/service/cli/src/sl_cli_input.o
+ .rodata        0x0000000008009322        0x7 vscode-build/obj/gecko_sdk_4.3.1/platform/service/device_init/src/sl_device_init_dcdc_s2.o
+ *fill*         0x0000000008009329        0x3 
+ .rodata        0x000000000800932c       0x28 vscode-build/obj/gecko_sdk_4.3.1/platform/service/device_init/src/sl_device_init_hfxo_s2.o
+ .rodata        0x0000000008009354       0x14 vscode-build/obj/gecko_sdk_4.3.1/platform/service/device_init/src/sl_device_init_lfxo_s2.o
  .rodata._write.str1.1
-                0x0000000008009338       0x4b vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_retarget_stdio.o
+                0x0000000008009368       0x4b vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_retarget_stdio.o
  .rodata.get_write_ptr.str1.1
-                0x0000000008009383       0x41 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_uart.o
+                0x00000000080093b3       0x41 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_uart.o
  .rodata.sl_udelay_wait.str1.1
-                0x00000000080093c4       0x38 vscode-build/obj/gecko_sdk_4.3.1/platform/service/udelay/src/sl_udelay.o
+                0x00000000080093f4       0x38 vscode-build/obj/gecko_sdk_4.3.1/platform/service/udelay/src/sl_udelay.o
  .rodata.nvm3_app_write.str1.1
-                0x00000000080093fc       0x58 vscode-build/obj/nvm3_app.o
+                0x000000000800942c       0x58 vscode-build/obj/nvm3_app.o
  .rodata.nvm3_app_delete.str1.1
-                0x0000000008009454       0x2e vscode-build/obj/nvm3_app.o
+                0x0000000008009484       0x2e vscode-build/obj/nvm3_app.o
  .rodata.nvm3_app_read.str1.1
-                0x0000000008009482       0x5e vscode-build/obj/nvm3_app.o
+                0x00000000080094b2       0x5e vscode-build/obj/nvm3_app.o
                                          0x63 (size before relaxing)
  .rodata.nvm3_app_display.str1.1
-                0x00000000080094e0      0x10a vscode-build/obj/nvm3_app.o
+                0x0000000008009510      0x10a vscode-build/obj/nvm3_app.o
  .rodata.nvm3_app_reset.str1.1
-                0x00000000080095ea       0x22 vscode-build/obj/nvm3_app.o
+                0x000000000800961a       0x22 vscode-build/obj/nvm3_app.o
  .rodata.nvm3_app_init.str1.1
-                0x000000000800960c       0x51 vscode-build/obj/nvm3_app.o
+                0x000000000800963c       0x51 vscode-build/obj/nvm3_app.o
  .rodata.nvm3_app_process_action.str1.1
-                0x000000000800965d       0x12 vscode-build/obj/nvm3_app.o
+                0x000000000800968d       0x22 vscode-build/obj/nvm3_app.o
  .rodata._ctype_
-                0x000000000800966f      0x101 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-ctype_.o)
-                0x000000000800966f                _ctype_
+                0x00000000080096af      0x101 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-ctype_.o)
+                0x00000000080096af                _ctype_
  .rodata._global_impure_ptr
-                0x0000000008009770        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-impure.o)
-                0x0000000008009770                _global_impure_ptr
+                0x00000000080097b0        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-impure.o)
+                0x00000000080097b0                _global_impure_ptr
  .rodata.__sf_fake_stderr
-                0x0000000008009774       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x0000000008009774                __sf_fake_stderr
- .rodata.__sf_fake_stdin
-                0x0000000008009794       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x0000000008009794                __sf_fake_stdin
- .rodata.__sf_fake_stdout
                 0x00000000080097b4       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
-                0x00000000080097b4                __sf_fake_stdout
+                0x00000000080097b4                __sf_fake_stderr
+ .rodata.__sf_fake_stdin
+                0x00000000080097d4       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x00000000080097d4                __sf_fake_stdin
+ .rodata.__sf_fake_stdout
+                0x00000000080097f4       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
+                0x00000000080097f4                __sf_fake_stdout
  .rodata._vfprintf_r.str1.1
-                0x00000000080097d4       0x11 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000008009814       0x11 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
  .rodata._printf_i.str1.1
-                0x00000000080097e5       0x22 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008009825       0x22 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
  .rodata.CSWTCH.30
-                0x0000000008009807        0x7 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
+                0x0000000008009847        0x7 gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_object.o)
  *(.eh_frame*)
- *fill*         0x000000000800980e        0x2 
- .eh_frame      0x0000000008009810        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crtbegin.o
+ *fill*         0x000000000800984e        0x2 
+ .eh_frame      0x0000000008009850        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crtbegin.o
 
-.glue_7         0x0000000008009810        0x0
- .glue_7        0x0000000008009810        0x0 linker stubs
+.glue_7         0x0000000008009850        0x0
+ .glue_7        0x0000000008009850        0x0 linker stubs
 
-.glue_7t        0x0000000008009810        0x0
- .glue_7t       0x0000000008009810        0x0 linker stubs
+.glue_7t        0x0000000008009850        0x0
+ .glue_7t       0x0000000008009850        0x0 linker stubs
 
-.vfp11_veneer   0x0000000008009810        0x0
- .vfp11_veneer  0x0000000008009810        0x0 linker stubs
+.vfp11_veneer   0x0000000008009850        0x0
+ .vfp11_veneer  0x0000000008009850        0x0 linker stubs
 
-.v4_bx          0x0000000008009810        0x0
- .v4_bx         0x0000000008009810        0x0 linker stubs
+.v4_bx          0x0000000008009850        0x0
+ .v4_bx         0x0000000008009850        0x0 linker stubs
 
-.iplt           0x0000000008009810        0x0
- .iplt          0x0000000008009810        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crtbegin.o
+.iplt           0x0000000008009850        0x0
+ .iplt          0x0000000008009850        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000008009810                __exidx_start = .
+                0x0000000008009850                __exidx_start = .
 
-.ARM.exidx      0x0000000008009810        0x8
+.ARM.exidx      0x0000000008009850        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x0000000008009810        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/crt0.o
+ .ARM.exidx     0x0000000008009850        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/crt0.o
                                          0x10 (size before relaxing)
- .ARM.exidx     0x0000000008009818        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x0000000008009858        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/libgcc.a(_udivmoddi4.o)
                                           0x8 (size before relaxing)
-                0x0000000008009818                __exidx_end = .
+                0x0000000008009858                __exidx_end = .
 
-.rel.dyn        0x0000000008009818        0x0
- .rel.iplt      0x0000000008009818        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crtbegin.o
+.rel.dyn        0x0000000008009858        0x0
+ .rel.iplt      0x0000000008009858        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crtbegin.o
 
-.copy.table     0x0000000008009818        0xc
-                0x0000000008009818                . = ALIGN (0x4)
-                0x0000000008009818                __copy_table_start__ = .
-                0x0000000008009818        0x4 LONG 0x8009824 __etext
-                0x000000000800981c        0x4 LONG 0x20001000 __data_start__
-                0x0000000008009820        0x4 LONG 0xae ((__data_end__ - __data_start__) / 0x4)
-                0x0000000008009824                __copy_table_end__ = .
+.copy.table     0x0000000008009858        0xc
+                0x0000000008009858                . = ALIGN (0x4)
+                0x0000000008009858                __copy_table_start__ = .
+                0x0000000008009858        0x4 LONG 0x8009864 __etext
+                0x000000000800985c        0x4 LONG 0x20001000 __data_start__
+                0x0000000008009860        0x4 LONG 0xae ((__data_end__ - __data_start__) / 0x4)
+                0x0000000008009864                __copy_table_end__ = .
 
-.zero.table     0x0000000008009824        0x0
-                0x0000000008009824                . = ALIGN (0x4)
-                0x0000000008009824                __zero_table_start__ = .
-                0x0000000008009824                __zero_table_end__ = .
-                0x0000000008009824                __etext = .
+.zero.table     0x0000000008009864        0x0
+                0x0000000008009864                . = ALIGN (0x4)
+                0x0000000008009864                __zero_table_start__ = .
+                0x0000000008009864                __zero_table_end__ = .
+                0x0000000008009864                __etext = .
                 0x0000000020000000                . = ORIGIN (RAM)
 
 .stack          0x0000000020000000     0x1000
@@ -2337,7 +2337,7 @@ LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/g
 .noinit
  *(.noinit*)
 
-.data           0x0000000020001000      0x2b8 load address 0x0000000008009824
+.data           0x0000000020001000      0x2b8 load address 0x0000000008009864
                 0x0000000020001000                . = ALIGN (0x4)
                 0x0000000020001000                __data_start__ = .
  *(vtable)
@@ -2379,8 +2379,10 @@ LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/g
                 0x00000000200010ae        0x2 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_cmu.o
  .data.ctuneDelta
                 0x00000000200010b0        0x1 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_cmu.o
+ .data.justStarted
+                0x00000000200010b1        0x1 vscode-build/obj/nvm3_app.o
                 0x00000000200010b4                . = ALIGN (0x4)
- *fill*         0x00000000200010b1        0x3 
+ *fill*         0x00000000200010b2        0x2 
                 [!provide]                        PROVIDE (__ram_func_section_start = .)
  *(.ram)
  .ram           0x00000000200010b4      0x1e8 vscode-build/obj/gecko_sdk_4.3.1/platform/emlib/src/em_msc.o
@@ -2411,10 +2413,10 @@ LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/g
                 0x00000000200012b8                . = ALIGN (0x4)
                 0x00000000200012b8                __data_end__ = .
 
-.igot.plt       0x00000000200012b8        0x0 load address 0x0000000008009adc
+.igot.plt       0x00000000200012b8        0x0 load address 0x0000000008009b1c
  .igot.plt      0x00000000200012b8        0x0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/crtbegin.o
 
-.bss            0x00000000200012b8      0xdac load address 0x0000000008009adc
+.bss            0x00000000200012b8      0xdac load address 0x0000000008009b1c
                 0x00000000200012b8                . = ALIGN (0x4)
                 0x00000000200012b8                __bss_start__ = .
  *(SORT_BY_ALIGNMENT(.bss*))
@@ -2501,13 +2503,13 @@ LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/g
                 0x000000000807e000                __main_flash_end__ = 0x807e000
 
 .internal_storage
-                0x0000000008009824        0x0
+                0x0000000008009864        0x0
  *(.internal_storage*)
 
-.nvm            0x0000000008009824     0xa000
+.nvm            0x0000000008009864     0xa000
  *(.simee*)
- .simee         0x0000000008009824     0xa000 vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/nvm3/src/nvm3_default_common_linker.o
-                0x0000000008009824                nvm3_default_storage
+ .simee         0x0000000008009864     0xa000 vscode-build/obj/gecko_sdk_4.3.1/platform/emdrv/nvm3/src/nvm3_default_common_linker.o
+                0x0000000008009864                nvm3_default_storage
                 0x000000000807e000                linker_nvm_end = __main_flash_end__
                 0x0000000008074000                linker_nvm_begin = (linker_nvm_end - SIZEOF (.nvm))
                 0x000000000000a000                linker_nvm_size = SIZEOF (.nvm)
@@ -2798,7 +2800,7 @@ LOAD linker stubs
  .comment       0x0000000000000049       0x4a gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_utils.o)
  .comment       0x0000000000000049       0x4a gecko_sdk_4.3.1/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a(nvm3_page.o)
 
-.debug_info     0x0000000000000000    0x3d681
+.debug_info     0x0000000000000000    0x3d6dc
  .debug_info    0x0000000000000000       0x7e vscode-build/obj/app.o
  .debug_info    0x000000000000007e       0x98 vscode-build/obj/autogen/sl_board_default_init.o
  .debug_info    0x0000000000000116      0x4a2 vscode-build/obj/autogen/sl_cli_command_table.o
@@ -2850,9 +2852,9 @@ LOAD linker stubs
  .debug_info    0x000000000003c57b       0x91 vscode-build/obj/gecko_sdk_4.3.1/platform/service/system/src/sl_system_process_action.o
  .debug_info    0x000000000003c60c      0x16e vscode-build/obj/gecko_sdk_4.3.1/platform/service/udelay/src/sl_udelay.o
  .debug_info    0x000000000003c77a       0x9c vscode-build/obj/main.o
- .debug_info    0x000000000003c816      0xe6b vscode-build/obj/nvm3_app.o
+ .debug_info    0x000000000003c816      0xec6 vscode-build/obj/nvm3_app.o
 
-.debug_abbrev   0x0000000000000000     0x6dbd
+.debug_abbrev   0x0000000000000000     0x6dfa
  .debug_abbrev  0x0000000000000000       0x51 vscode-build/obj/app.o
  .debug_abbrev  0x0000000000000051       0x67 vscode-build/obj/autogen/sl_board_default_init.o
  .debug_abbrev  0x00000000000000b8      0x114 vscode-build/obj/autogen/sl_cli_command_table.o
@@ -2904,7 +2906,7 @@ LOAD linker stubs
  .debug_abbrev  0x00000000000069aa       0x5c vscode-build/obj/gecko_sdk_4.3.1/platform/service/system/src/sl_system_process_action.o
  .debug_abbrev  0x0000000000006a06       0xee vscode-build/obj/gecko_sdk_4.3.1/platform/service/udelay/src/sl_udelay.o
  .debug_abbrev  0x0000000000006af4       0x5b vscode-build/obj/main.o
- .debug_abbrev  0x0000000000006b4f      0x26e vscode-build/obj/nvm3_app.o
+ .debug_abbrev  0x0000000000006b4f      0x2ab vscode-build/obj/nvm3_app.o
 
 .debug_aranges  0x0000000000000000     0x1100
  .debug_aranges
@@ -3065,7 +3067,7 @@ LOAD linker stubs
  .debug_ranges  0x0000000000001a08       0x10 vscode-build/obj/main.o
  .debug_ranges  0x0000000000001a18       0x48 vscode-build/obj/nvm3_app.o
 
-.debug_line     0x0000000000000000    0x1369f
+.debug_line     0x0000000000000000    0x13690
  .debug_line    0x0000000000000000       0x5c vscode-build/obj/app.o
  .debug_line    0x000000000000005c       0x8d vscode-build/obj/autogen/sl_board_default_init.o
  .debug_line    0x00000000000000e9      0x2a1 vscode-build/obj/autogen/sl_cli_command_table.o
@@ -3117,9 +3119,9 @@ LOAD linker stubs
  .debug_line    0x0000000000012b64       0xab vscode-build/obj/gecko_sdk_4.3.1/platform/service/system/src/sl_system_process_action.o
  .debug_line    0x0000000000012c0f      0x28b vscode-build/obj/gecko_sdk_4.3.1/platform/service/udelay/src/sl_udelay.o
  .debug_line    0x0000000000012e9a       0xc5 vscode-build/obj/main.o
- .debug_line    0x0000000000012f5f      0x740 vscode-build/obj/nvm3_app.o
+ .debug_line    0x0000000000012f5f      0x731 vscode-build/obj/nvm3_app.o
 
-.debug_str      0x0000000000000000     0xe82a
+.debug_str      0x0000000000000000     0xe836
  .debug_str     0x0000000000000000      0x12e vscode-build/obj/app.o
                                         0x150 (size before relaxing)
  .debug_str     0x000000000000012e       0x9c vscode-build/obj/autogen/sl_board_default_init.o
@@ -3222,10 +3224,10 @@ LOAD linker stubs
                                         0x241 (size before relaxing)
  .debug_str     0x000000000000e6b8        0xc vscode-build/obj/main.o
                                         0x158 (size before relaxing)
- .debug_str     0x000000000000e6c4      0x166 vscode-build/obj/nvm3_app.o
-                                        0x80a (size before relaxing)
+ .debug_str     0x000000000000e6c4      0x172 vscode-build/obj/nvm3_app.o
+                                        0x816 (size before relaxing)
 
-.debug_frame    0x0000000000000000     0x36e8
+.debug_frame    0x0000000000000000     0x36ec
  .debug_frame   0x0000000000000000       0x30 vscode-build/obj/app.o
  .debug_frame   0x0000000000000030       0x20 vscode-build/obj/autogen/sl_board_default_init.o
  .debug_frame   0x0000000000000050       0x64 vscode-build/obj/autogen/sl_cli_instances.o
@@ -3276,50 +3278,50 @@ LOAD linker stubs
  .debug_frame   0x000000000000294c       0x2c vscode-build/obj/gecko_sdk_4.3.1/platform/service/system/src/sl_system_process_action.o
  .debug_frame   0x0000000000002978       0x38 vscode-build/obj/gecko_sdk_4.3.1/platform/service/udelay/src/sl_udelay.o
  .debug_frame   0x00000000000029b0       0x28 vscode-build/obj/main.o
- .debug_frame   0x00000000000029d8      0x144 vscode-build/obj/nvm3_app.o
- .debug_frame   0x0000000000002b1c       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x0000000000002b48       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/libgcc.a(_udivmoddi4.o)
- .debug_frame   0x0000000000002b80       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-exit.o)
- .debug_frame   0x0000000000002ba8       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-init.o)
- .debug_frame   0x0000000000002bd4       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-memcmp.o)
- .debug_frame   0x0000000000002bfc       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x0000000000002c24       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-memmove.o)
- .debug_frame   0x0000000000002c4c       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-memset.o)
- .debug_frame   0x0000000000002c6c       0x74 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-printf.o)
- .debug_frame   0x0000000000002ce0       0x3c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-puts.o)
- .debug_frame   0x0000000000002d1c       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-setvbuf.o)
- .debug_frame   0x0000000000002d54       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strcmp.o)
- .debug_frame   0x0000000000002d74       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strncmp.o)
- .debug_frame   0x0000000000002d9c       0x64 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strtol.o)
- .debug_frame   0x0000000000002e00       0x70 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strtoll.o)
- .debug_frame   0x0000000000002e70       0x64 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strtoul.o)
- .debug_frame   0x0000000000002ed4       0x54 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-vprintf.o)
- .debug_frame   0x0000000000002f28       0x40 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-wbuf.o)
- .debug_frame   0x0000000000002f68       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-wsetup.o)
- .debug_frame   0x0000000000002f94       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-errno.o)
- .debug_frame   0x0000000000002fb4       0x5c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-fflush.o)
- .debug_frame   0x0000000000003010      0x14c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
- .debug_frame   0x000000000000315c       0x54 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-fwalk.o)
- .debug_frame   0x00000000000031b0       0xb0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-lock.o)
- .debug_frame   0x0000000000003260       0x58 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-makebuf.o)
- .debug_frame   0x00000000000032b8       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-malloc.o)
- .debug_frame   0x00000000000032e8       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-freer.o)
- .debug_frame   0x0000000000003320       0x4c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
- .debug_frame   0x000000000000336c       0xac /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
- .debug_frame   0x0000000000003418       0x60 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_frame   0x0000000000003478       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-sbrkr.o)
- .debug_frame   0x00000000000034a4       0x88 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-stdio.o)
- .debug_frame   0x000000000000352c       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-writer.o)
- .debug_frame   0x0000000000003558       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-closer.o)
- .debug_frame   0x0000000000003584       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-fstatr.o)
- .debug_frame   0x00000000000035b0       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-isattyr.o)
- .debug_frame   0x00000000000035dc       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-lseekr.o)
- .debug_frame   0x0000000000003608       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-memchr-stub.o)
- .debug_frame   0x0000000000003630       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-mlock.o)
- .debug_frame   0x0000000000003660       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-readr.o)
- .debug_frame   0x000000000000368c       0x5c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-reent.o)
+ .debug_frame   0x00000000000029d8      0x148 vscode-build/obj/nvm3_app.o
+ .debug_frame   0x0000000000002b20       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x0000000000002b4c       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v8-m.main+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x0000000000002b84       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x0000000000002bac       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000002bd8       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-memcmp.o)
+ .debug_frame   0x0000000000002c00       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000002c28       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-memmove.o)
+ .debug_frame   0x0000000000002c50       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000002c70       0x74 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-printf.o)
+ .debug_frame   0x0000000000002ce4       0x3c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-puts.o)
+ .debug_frame   0x0000000000002d20       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-setvbuf.o)
+ .debug_frame   0x0000000000002d58       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strcmp.o)
+ .debug_frame   0x0000000000002d78       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strncmp.o)
+ .debug_frame   0x0000000000002da0       0x64 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strtol.o)
+ .debug_frame   0x0000000000002e04       0x70 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strtoll.o)
+ .debug_frame   0x0000000000002e74       0x64 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-strtoul.o)
+ .debug_frame   0x0000000000002ed8       0x54 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-vprintf.o)
+ .debug_frame   0x0000000000002f2c       0x40 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-wbuf.o)
+ .debug_frame   0x0000000000002f6c       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-wsetup.o)
+ .debug_frame   0x0000000000002f98       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-errno.o)
+ .debug_frame   0x0000000000002fb8       0x5c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-fflush.o)
+ .debug_frame   0x0000000000003014      0x14c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-findfp.o)
+ .debug_frame   0x0000000000003160       0x54 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-fwalk.o)
+ .debug_frame   0x00000000000031b4       0xb0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-lock.o)
+ .debug_frame   0x0000000000003264       0x58 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-makebuf.o)
+ .debug_frame   0x00000000000032bc       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-malloc.o)
+ .debug_frame   0x00000000000032ec       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x0000000000003324       0x4c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x0000000000003370       0xac /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-vfprintf.o)
+ .debug_frame   0x000000000000341c       0x60 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x000000000000347c       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000000000034a8       0x88 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-stdio.o)
+ .debug_frame   0x0000000000003530       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-writer.o)
+ .debug_frame   0x000000000000355c       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-closer.o)
+ .debug_frame   0x0000000000003588       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-fstatr.o)
+ .debug_frame   0x00000000000035b4       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-isattyr.o)
+ .debug_frame   0x00000000000035e0       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-lseekr.o)
+ .debug_frame   0x000000000000360c       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-memchr-stub.o)
+ .debug_frame   0x0000000000003634       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000003664       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-readr.o)
+ .debug_frame   0x0000000000003690       0x5c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/10.3_2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(lib_a-reent.o)
 
-.debug_loc      0x0000000000000000     0xf489
+.debug_loc      0x0000000000000000     0xf3fa
  .debug_loc     0x0000000000000000       0x2f vscode-build/obj/autogen/sl_cli_instances.o
  .debug_loc     0x000000000000002f       0x4b vscode-build/obj/autogen/sl_event_handler.o
  .debug_loc     0x000000000000007a       0x51 vscode-build/obj/autogen/sl_iostream_init_eusart_instances.o
@@ -3357,4 +3359,4 @@ LOAD linker stubs
  .debug_loc     0x000000000000e17b      0x1cb vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_retarget_stdio.o
  .debug_loc     0x000000000000e346      0xbe8 vscode-build/obj/gecko_sdk_4.3.1/platform/service/iostream/src/sl_iostream_uart.o
  .debug_loc     0x000000000000ef2e      0x145 vscode-build/obj/gecko_sdk_4.3.1/platform/service/udelay/src/sl_udelay.o
- .debug_loc     0x000000000000f073      0x416 vscode-build/obj/nvm3_app.o
+ .debug_loc     0x000000000000f073      0x387 vscode-build/obj/nvm3_app.o

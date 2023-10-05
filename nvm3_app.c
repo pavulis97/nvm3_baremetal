@@ -49,6 +49,7 @@
 
 // Buffer for reading from NVM3
 static char buffer[NVM3_DEFAULT_MAX_OBJECT_SIZE];
+static bool justStarted = true;
 
 /*******************************************************************************
  **************************   LOCAL FUNCTIONS   ********************************
@@ -80,21 +81,15 @@ static void initialise_counters(void)
  * This function implements the CLI command 'write' (see nvm3_app.slcp)
  * It stores string data at the selected NVM3 key.
  ******************************************************************************/
-void nvm3_app_write(sl_cli_command_arg_t *arguments)
+void nvm3_app_write(uint32_t key, char *data)
 {
-  uint32_t key;
-  size_t len;
+  size_t len = strlen(data);
 
-  // Get the key and data from CLI
-  key = sl_cli_get_argument_uint32(arguments, 0);
-  char *data = sl_cli_get_argument_string(arguments, 1);
 
   if (key > MAX_DATA_KEY) {
     printf("Invalid key\r\n");
     return;
   }
-
-  len = strlen(data);
 
   if (len > NVM3_DEFAULT_MAX_OBJECT_SIZE) {
     printf("Maximum object size exceeded\r\n");
@@ -144,14 +139,11 @@ void nvm3_app_delete(sl_cli_command_arg_t *arguments)
  * This function implements the CLI command 'read' (see nvm3_app.slcp)
  * It reads the data object stored at the selected NVM3 key.
  ******************************************************************************/
-void nvm3_app_read(sl_cli_command_arg_t *arguments)
+void nvm3_app_read(uint32_t key)
 {
   uint32_t type;
   size_t len;
   Ecode_t err;
-
-  // Get the key from CLI
-  uint32_t key = sl_cli_get_argument_uint32(arguments, 0);
 
   if (key > MAX_DATA_KEY) {
     printf("Invalid key\r\n");
@@ -184,7 +176,7 @@ void nvm3_app_read(sl_cli_command_arg_t *arguments)
  *     - number of objects deleted since last display
  *     - number of objects written since last display
  ******************************************************************************/
-void nvm3_app_display(sl_cli_command_arg_t *arguments)
+void nvm3_app_display()
 {
   nvm3_ObjectKey_t keys[MAX_OBJECT_COUNT];
   size_t len, objects_count;
@@ -193,7 +185,6 @@ void nvm3_app_display(sl_cli_command_arg_t *arguments)
   uint32_t counter = 0;
   size_t i;
 
-  (void)&arguments;
 
   objects_count = nvm3_enumDeletedObjects(NVM3_DEFAULT_HANDLE,
                                           (uint32_t *)keys,
@@ -284,6 +275,19 @@ void nvm3_app_init(void)
  ******************************************************************************/
 void nvm3_app_process_action(void)
 {
+
+  if(justStarted){
+    nvm3_app_write(1, "hello");
+    nvm3_app_write(2, "world");
+    nvm3_app_write(3, "123");
+    justStarted = false;
+
+    nvm3_app_read(1);
+    nvm3_app_read(2);
+    nvm3_app_read(3);
+
+    nvm3_app_display();
+  }
   // Check if NVM3 controller can release any out-of-date objects
   // to free up memory.
   // This may take more than one call to nvm3_repack()
